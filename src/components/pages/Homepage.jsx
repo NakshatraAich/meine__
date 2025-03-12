@@ -78,7 +78,7 @@ const Homepage = () => {
 
       <section>
         <section 
-          className='sm:hidden flex flex-col w-full min-h-[100vh] bg-cover bg-right-top bg-no-repeat bg-red-500'
+          className='sm:hidden flex flex-col w-full min-h-[100vh] bg-cover bg-right-top bg-no-repeat'
           style={{ backgroundImage: `url(${smallHero})` }}
         >
             <div className='px-6 mt-[38rem] font-bold text-left text-head text-3xl leading-[1]'> 
