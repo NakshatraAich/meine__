@@ -76,41 +76,44 @@ const Homepage = () => {
           </section>  
       </section>
 
-      <section 
-        className='sm:hidden flex flex-col w-full min-h-[120vh] bg-cover bg-right-top bg-no-repeat'
-        style={{ backgroundImage: `url(${smallHero})` }}
-      >
-          <div className='px-6 mt-[38rem] font-bold text-left text-head text-3xl leading-[1]'> 
-            Limitless Energy with <span className='text-brand'>Metal Air Fuel Cells</span>
+      <section>
+        <section 
+          className='sm:hidden flex flex-col w-full min-h-[100vh] bg-cover bg-right-top bg-no-repeat bg-red-500'
+          style={{ backgroundImage: `url(${smallHero})` }}
+        >
+            <div className='px-6 mt-[38rem] font-bold text-left text-head text-3xl leading-[1]'> 
+              Limitless Energy with <span className='text-brand'>Metal Air Fuel Cells</span>
+            </div>
+            <div className='px-6 mt-2 font-sm text-left text-text font-medium tracking-tight'> 
+              Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future          
+            </div>
+            <div className='px-6 mt-4 flex flex-row w-full gap-4'>
+              <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand bg-brand text-white font-semibold text-xs rounded-lg'>Schedule A Call</div>
+              <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand text-brand font-semibold text-xs rounded-lg'>Join Us Onboard</div>
+            </div>
+        </section>
+
+        <section className='px-6 pt-[4rem] pb-[2rem] sm:hidden flex flex-col gap-3'>
+          <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
+            About <span className='text-brand'>Meine Electric</span>
           </div>
-          <div className='px-6 mt-2 font-sm text-left text-text font-medium tracking-tight'> 
-            Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future          
+          <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight'>
+              Meine Electric is an Indian company pioneering innovation in energy manufacturing<br/>and technology. Our reliable, cost-effective, multi-day energy solutions are<br/>designed to ensure energy security.
           </div>
-          <div className='px-6 mt-4 flex flex-row w-full gap-4'>
-            <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand bg-brand text-white font-semibold text-xs rounded-lg'>Schedule A Call</div>
-            <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand text-brand font-semibold text-xs rounded-lg'>Schedule A Call</div>
+          <div className='text-sm md:text-base font-semibold text-head mt-4'>
+            Backed By
           </div>
+          <div className='flex flex-row flex-wrap gap-4 md:gap-12'>
+            <img src={antler} className='h-7 xl:h-10 grayscale'/>
+            <img src={grad} className='h-7 xl:h-10 grayscale'/>
+            <img src={venture} className='h-7 xl:h-10 grayscale'/>
+            <img src={arai} className='h-7 xl:h-10 grayscale'/>
+            <img src={aim} className='h-7 xl:h-10 grayscale'/>
+            <img src={hdfc} className='h-7 xl:h-10 grayscale'/>
+          </div>
+        </section> 
       </section>
 
-      <section className='px-6 pt-[2rem] sm:hidden flex flex-col gap-3'>
-        <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
-          About <span className='text-brand'>Meine Electric</span>
-        </div>
-        <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight'>
-            Meine Electric is an Indian company pioneering innovation in energy manufacturing<br/>and technology. Our reliable, cost-effective, multi-day energy solutions are<br/>designed to ensure energy security.
-        </div>
-        <div className='text-sm md:text-base font-semibold text-head mt-4'>
-          Backed By
-        </div>
-        <div className='flex flex-row flex-wrap gap-4 md:gap-12'>
-          <img src={antler} className='h-7 xl:h-10 grayscale'/>
-          <img src={grad} className='h-7 xl:h-10 grayscale'/>
-          <img src={venture} className='h-7 xl:h-10 grayscale'/>
-          <img src={arai} className='h-7 xl:h-10 grayscale'/>
-          <img src={aim} className='h-7 xl:h-10 grayscale'/>
-          <img src={hdfc} className='h-7 xl:h-10 grayscale'/>
-        </div>
-      </section> 
              
       <section className='px-6 lg:px-16 pt-32 hidden sm:flex flex-col gap-3'>
         <div className='bg-brand p-2 w-28 rounded-full'></div>
