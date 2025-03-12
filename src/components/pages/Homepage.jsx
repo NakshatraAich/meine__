@@ -97,7 +97,7 @@ const Homepage = () => {
           <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
             About <span className='text-brand'>Meine Electric</span>
           </div>
-          <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight'>
+          <div className='font-medium text-lg xl:text-2xl text-left text-text tracking-tight'>
               Meine Electric is an Indian company pioneering innovation in energy manufacturing<br/>and technology. Our reliable, cost-effective, multi-day energy solutions are<br/>designed to ensure energy security.
           </div>
           <div className='text-sm md:text-base font-semibold text-head mt-4'>
