@@ -34,7 +34,7 @@ const Footer = () => {
       ]
 
     return (
-        <div className='flex flex-col xl:flex-row bg-[#151515] rounded-t-[2.5rem] py-12 px-12 sm:py-24 sm:px-24 gap-16'>
+        <div className='flex flex-col xl:flex-row bg-[#151515] rounded-t-[2.5rem] py-12 px-12 sm:py-24 sm:px-24 gap-16 bottom-0'>
             <div className='text-white font-light flex flex-col xl:justify-star'>
                 <div className='text-[0.6rem] sm:text-[0.7rem] text-center xl:text-left'>&copy; MEINE ELECTRIC PVT. LTD. 2025</div>
                 <div className='text-4xl sm:text-5xl xl:text-6xl font-semibold xl:mb-4 xl:whitespace-nowrap xl:text-left text-center'>Tomorrow is powered by <span className='text-brand'>metal.</span></div>

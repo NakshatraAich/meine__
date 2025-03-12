@@ -7,6 +7,7 @@ import hdfc from './logo/HDFC.png'
 import venture from './logo/VentureCatalyst.png'
 
 import hero from './images/hero.png'
+import smallHero from './images/small_hero.png'
 import cogen from './images/cogeneration.jpg'
 import elec from './images/electrolyte.jpg'
 import elec2 from './images/electrolyte2.jpg'
@@ -47,5 +48,6 @@ export{
     nature,
     aircell,
     alair,
-    heroTech
+    heroTech,
+    smallHero
 }
