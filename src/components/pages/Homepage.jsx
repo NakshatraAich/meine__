@@ -37,7 +37,7 @@ const Homepage = () => {
               Limitless Energy<br/>with <span className='text-brand'>Metal Air Fuel Cells</span>
             </h1>
             <h2 className='font-medium xl:text-xl md:text-sm text-sm text-left text-text tracking-tight'>
-              Revolutionizing energy generation by harnessing the power of metal and<br/>oxygen to create sustainable power solutions for the future
+              Revolutionizing energy generation by harnessing the power of metal and<br/>oxygen to create sustainable energy solutions for the future
             </h2>
             <div className='flex flex-row gap-2 md:gap-4 mt-2 md:mt-2 xl:mt-6'>
               <NavLink 
@@ -59,8 +59,8 @@ const Homepage = () => {
             <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
               About <span className='text-brand'>Meine Electric</span>
             </div>
-            <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight'>
-                Meine Electric is an Indian company pioneering innovation in energy manufacturing<br/>and technology. Our reliable, cost-effective, multi-day energy solutions are<br/>designed to ensure energy security.
+            <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight max-w-[1000px]'>
+            MEINE Electric is an Indian deep-tech company at the forefront of energy innovation. We are developing cutting-edge metal-air technology to deliver multi-day, reliable, and cost-effective energy backup—reinventing energy security and powering a sustainable future.
             </div>
             <div className='text-sm md:text-base font-semibold text-head mt-4'>
               Backed By
@@ -85,7 +85,7 @@ const Homepage = () => {
               Limitless Energy with <span className='text-brand'>Metal Air Fuel Cells</span>
             </div>
             <div className='px-6 mt-2 font-sm text-left text-text font-medium tracking-tight'> 
-              Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future          
+              Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable energy solutions for the future          
             </div>
             <div className='px-6 mt-4 flex flex-row w-full gap-4'>
               <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand bg-brand text-white font-semibold text-sm rounded-lg'>Schedule A Call</div>
@@ -98,8 +98,7 @@ const Homepage = () => {
             About <span className='text-brand'>Meine Electric</span>
           </div>
           <div className='font-medium text-lg xl:text-2xl text-left text-text tracking-tight'>
-              Meine Electric is an Indian company pioneering innovation in energy manufacturing<br/>and technology. Our reliable, cost-effective, multi-day energy solutions are<br/>designed to ensure energy security.
-          </div>
+            MEINE Electric is an Indian deep-tech company at the forefront of energy innovation. We are developing cutting-edge metal-air technology to deliver multi-day, reliable, and cost-effective energy backup—reinventing energy security and powering a sustainable future.          </div>
           <div className='text-sm md:text-base font-semibold text-head mt-4'>
             Backed By
           </div>
@@ -113,30 +112,31 @@ const Homepage = () => {
           </div>
         </section> 
       </section>
-
              
       <section className='px-6 lg:px-16 pt-32 hidden md:flex flex-col gap-3'>
         <div className='bg-brand p-2 w-28 rounded-full'></div>
         <h1 className="text-head text-2xl sm:text-4xl xl:text-[3rem] xl:leading-[1] font-bold text-left mt-4 mb-8">
-          Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cells
+          Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cell
         </h1>
         <div className='flex flex-col gap-8'>
           <div className='flex flex-row w-full h-[20rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
-            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
+            <img src="https://www.ifam.fraunhofer.de/en/magazine/metal-air-batteries-and-gas-diffusion-electrodes/jcr:content/contentPar/sectioncomponent/sectionParsys/textwithinlinedimage/imageComponent2/image.img.4col.large.jpg/1739189784510/Metall-Luft-Stack.jpg" 
             className='flex-grow w-1/2 bg-gray-200'></img>
-            <div className='flex-grow w-1/2 py-8 pr-10 xl:pr-16 gap-3 flex flex-col justify-center'>
-              <div className='text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Paving the way for Sustainable <br className='xl:block hidden'/>Energy</div>
+            <div className='flex-grow w-1/2 py-8 pr-10 xl:pr-12 gap-3 flex flex-col justify-center'>
+              <div className='text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Uninterrupted power when<br className='xl:block hidden'/>you need it most</div>
               <div className='font-medium text-lg xl:text-xl text-left text-text tracking-tight xl:pr-48'>
-                Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future
+                Aluminum-air technology delivers an ultra-high energy density, providing 100+ hours of reliable backup. Refuelling is instant—simply replace the aluminum, and the system is ready to power on with no downtime.
               </div>          
             </div>
           </div>
           <div className='flex flex-row w-full h-[20rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
             <div className='w-1/2 flex flex-col items-center'>
               <div className='flex-grow pl-[2rem] py-8 xl:pl-[6rem] xl:pr-[4rem] gap-3 flex flex-col justify-center'>
-                <div className=' w-fit text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Aluminum's Abundant Recycling Potential</div>
+                <div className=' w-fit text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Clean energy for a decarbonized future.
+                </div>
                 <div className=' w-fit lg:pr-8 items-end flex flex-col font-medium text-lg xl:text-xl text-left text-text tracking-tight'>
-                Technological innovations have significantly enhanced aluminum recycling processes, improving efficiency. These advancements contribute to a more sustainable lifecycle.                </div>          
+                Aluminum-air fuel cells produce no direct carbon emissions and operate silently, making them a game-changer for industrial decarbonization and sustainable power generation.
+                </div>          
               </div>
             </div>
             <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"  
@@ -145,10 +145,11 @@ const Homepage = () => {
           <div className='flex flex-row w-full h-[20rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
             <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"  
             className='flex-grow w-1/2 bg-gray-200'></img>
-            <div className='flex-grow w-1/2 py-8 pr-10 xl:pr-16 gap-3 flex flex-col justify-center'>
-              <div className='text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Driving Green Innovation with Zero-Emission Al-Air Fuel Cells</div>
+            <div className='flex-grow w-1/2 py-8 pr-10 xl:pr-12 gap-3 flex flex-col justify-center'>
+              <div className='text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>The most accessible energy<br className='xl:block hidden'/>source on the Planet</div>
               <div className='font-medium text-lg xl:text-xl text-left text-text tracking-tight xl:pr-48'>
-              Al-air fuel cells produce electricity through aluminum oxidation, generating no tailpipe emissions—offering clean, eco-friendly energy for transportation.              </div>          
+                Aluminum, making up 8% of the Earth's crust, is the most abundant metal on the planet. It enables a decentralized energy supply chain, ensuring accessibility, affordability, and energy independence.
+              </div>          
             </div>
           </div>
         </div>
@@ -157,7 +158,7 @@ const Homepage = () => {
       <section className='px-6 lg:px-16 pt-16 md:hidden flex flex-col gap-3'>
         <div className='bg-brand p-2 w-16 rounded-full'></div>
         <h1 className="text-head text-2xl leading-[1] font-bold text-left mt-2 mb-6">
-          Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cells
+          Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cell
         </h1>
         <div className='flex flex-col gap-8'>
           <div className='flex flex-col rounded-3xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.4)]'>
@@ -165,32 +166,32 @@ const Homepage = () => {
             src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
             className='h-[24rem]'/>
             <div className='flex flex-col p-6 gap-1'>
-              <div className='text-xl font-semibold text-altHead leading-[1]'>Paving the way for Sustainable <br className='xl:block hidden'/>Energy</div>
+              <div className='text-xl font-semibold text-altHead leading-[1]'>Uninterrupted power when <br className='xl:block hidden'/>you need it most</div>
               <div className='font-medium text-base text-left text-text tracking-tight'>
-                Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future
+              Aluminum-air technology delivers an ultra-high energy density, providing 100+ hours of reliable backup. Refuelling is instant—simply replace the aluminum, and the system is ready to power on with no downtime.              </div> 
+            </div> 
+          </div>
+
+          <div className='flex flex-col rounded-3xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.4)]'>
+            <img 
+            src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
+            className='h-[24rem]'/>
+            <div className='flex flex-col p-6 gap-1'>
+              <div className='text-xl font-semibold text-altHead leading-[1]'>Clean energy for a decarbonized future.</div>
+              <div className='font-medium text-base text-left text-text tracking-tight'>
+              Aluminum-air fuel cells produce no direct carbon emissions and operate silently, making them a game-changer for industrial decarbonization and sustainable power generation.              </div> 
+            </div> 
+          </div>
+
+          <div className='flex flex-col rounded-3xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.4)]'>
+            <img 
+            src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
+            className='h-[24rem]'/>
+            <div className='flex flex-col p-6 gap-1'>
+              <div className='text-xl font-semibold text-altHead leading-[1]'>The most accessible energy source on the Planet</div>
+              <div className='font-medium text-base text-left text-text tracking-tight'>
+              Aluminum, making up 8% of the Earth's crust, is the most abundant metal on the planet. It enables a decentralized energy supply chain, ensuring accessibility, affordability, and energy independence.
               </div> 
-            </div> 
-          </div>
-
-          <div className='flex flex-col rounded-3xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.4)]'>
-            <img 
-            src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
-            className='h-[24rem]'/>
-            <div className='flex flex-col p-6 gap-1'>
-              <div className='text-xl font-semibold text-altHead leading-[1]'>Aluminum's Abundant Recycling <br className='xl:block hidden'/> Potential</div>
-              <div className='font-medium text-base text-left text-text tracking-tight'>
-              Technological innovations have significantly enhanced aluminum recycling processes, improving efficiency. These advancements contribute to a more sustainable lifecycle.              </div> 
-            </div> 
-          </div>
-
-          <div className='flex flex-col rounded-3xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.4)]'>
-            <img 
-            src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
-            className='h-[24rem]'/>
-            <div className='flex flex-col p-6 gap-1'>
-              <div className='text-xl font-semibold text-altHead leading-[1]'>Driving Green Innovation with Zero-Emission <br className='xl:block hidden'/>Al-Air Fuel Cells </div>
-              <div className='font-medium text-base text-left text-text tracking-tight'>
-              Al-air fuel cells produce electricity through aluminum oxidation, generating no tailpipe emissions—offering clean, eco-friendly energy for transportation.              </div> 
             </div> 
           </div>
         </div>
@@ -199,8 +200,8 @@ const Homepage = () => {
 
       <section className='px-6 lg:px-16 pt-20 flex flex-col gap-3 items-center'>
         <div className='bg-brand w-16 p-2 sm:w-28 rounded-full'></div>
-        <h1 className="text-head text-2xl sm:text-4xl xl:text-[3rem] leading-[1] font-bold text-center mt-2 sm:mt-4 mb-6 sm:mb-8">
-          Leveraging <span className='text-brand'>Aluminum</span> for<br/>Limitless Energy
+        <h1 className="text-head text-2xl sm:text-4xl xl:text-5xl font-bold text-center mt-2 sm:mt-4 mb-6 sm:mb-8">
+        Breakthrough <span className='text-brand'>Energy Technology</span><br/>for a Resilient World
         </h1>
         <div className='flex flex-col lg:flex-row w-full gap-4 lg:gap-8'>
           <img 
@@ -208,7 +209,7 @@ const Homepage = () => {
             src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" />
           <div className='sm:p-2 flex flex-col gap-4 lg:gap-8 justify-center w-full lg:w-1/2'>
             <div className='font-medium text-base sm:text-lg xl:text-xl text-left text-text tracking-tight'>
-              Revolutionizing energy storage by leveraging widely available materials such as aluminum and the natural abundance of atmospheric oxygen, we are developing highly efficient, scalable, and environmentally sustainable power solutions that have the potential to transform the future of clean energy, ensuring long-term energy security and reducing dependence on fossil fuels
+            By leveraging aluminum & oxygen, we are redefining how energy is stored, transported, and utilized—building a resilient & energy secure future free from fossil fuels and dependence on grid. 
             </div>
             <div className='bg-brand px-6 sm:px-8 text-xs sm:text-sm xl:text-base xl:px-8 py-3 rounded-lg text-center text-white border-[2.5px] border-brand font-semibold 
                         transition-all duration-200 ease-in-out active:scale-95 cursor-pointer w-fit'>

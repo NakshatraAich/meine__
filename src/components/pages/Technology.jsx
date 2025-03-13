@@ -16,82 +16,25 @@ const Technology = () => {
             Engineering the Future of<br/><span className='text-brand'>Power Generation & Storage.</span>
           </div>
           <div className='w-fit pr-8 items-end flex flex-col font-medium text-xl text-left text-text tracking-tight'>
-            The electric grid is under increasing pressure to meet<br/>growing energy demands while maintaining reliability,<br/>affordability, and sustainability.
+          MEINE Electric pioneers metal-air fuel cells with<br/>advanced R&D, strong IP, and a focus on performance,<br/>scalability, and efficiency.
           </div> 
         </div> 
       </section>
 
-      <section className='px-16 pt-20 flex flex-col gap-3 items-center'>
-        <div className='bg-brand p-2 w-28 rounded-full'></div>
-        <h1 className="text-head text-[3rem] leading-[1] font-bold text-center mt-4 mb-8">
-          Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cells
-        </h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-16 gap-x-4'>
-          <div className=' bg-gray-400 rounded-xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-            <img src={windmill} className='w-full h-2/3 object-cover object-[70%_0%]'></img>
-            <div className='h-1/3 px-6 py-1 flex flex-col justify-center bg-white text-left'>
-              <div className='text-altHead font-semibold text-3xl'>Wind energy isn't<br/>reliable enough.</div>
-              <div className='text-text font-medium text-xl'>Intermittent wind necessitates backup power,<br/>rendering wind energy less reliable.</div>
-            </div>
-          </div>
-
-          <div className=' bg-gray-400 rounded-xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-            <img src={solar} className='w-full h-2/3 object-cover object-[70%_0%]'></img>
-            <div className='h-1/3 px-6 py-1 flex flex-col justify-center bg-white text-left'>
-              <div className='text-altHead font-semibold text-3xl'>Wind energy isn't<br/>reliable enough.</div>
-              <div className='text-text font-medium text-xl'>Intermittent wind necessitates backup power,<br/>rendering wind energy less reliable.</div>
-            </div>
-          </div>
-
-          <div className=' bg-gray-400 rounded-xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-            <img src={lithium} className='w-full h-2/3 object-cover object-[70%_0%]'></img>
-            <div className='h-1/3 px-6 py-1 flex flex-col justify-center bg-white text-left'>
-              <div className='text-altHead font-semibold text-3xl'>Wind energy isn't<br/>reliable enough.</div>
-              <div className='text-text font-medium text-xl'>Intermittent wind necessitates backup power,<br/>rendering wind energy less reliable.</div>
-            </div>
-          </div>
-
-          <div className=' bg-gray-400 rounded-xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-            <img src={dam} className='w-full h-2/3 object-cover object-[70%_0%]'></img>
-            <div className='h-1/3 px-6 py-1 flex flex-col justify-center bg-white text-left'>
-              <div className='text-altHead font-semibold text-3xl'>Wind energy isn't<br/>reliable enough.</div>
-              <div className='text-text font-medium text-xl'>Intermittent wind necessitates backup power,<br/>rendering wind energy less reliable.</div>
-            </div>
-          </div>
-
-          <div className=' bg-gray-400 rounded-xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-            <img src={nature} className='w-full h-2/3 object-cover object-[70%_0%]'></img>
-            <div className='h-1/3 px-6 py-1 flex flex-col justify-center bg-white text-left'>
-              <div className='text-altHead font-semibold text-3xl'>Wind energy isn't<br/>reliable enough.</div>
-              <div className='text-text font-medium text-xl'>Intermittent wind necessitates backup power,<br/>rendering wind energy less reliable.</div>
-            </div>
-          </div>
-
-          <div className=' bg-gray-400 rounded-xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-            <img src={sustainable} className='w-full h-2/3 object-cover object-[70%_0%]'></img>
-            <div className='h-1/3 px-6 py-1 flex flex-col justify-center bg-white text-left'>
-              <div className='text-altHead font-semibold text-3xl'>Wind energy isn't<br/>reliable enough.</div>
-              <div className='text-text font-medium text-xl'>Intermittent wind necessitates backup power,<br/>rendering wind energy less reliable.</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className='px-16 pt-20 flex flex-col gap-3 items-start mb-12'>
         <div className='bg-brand p-2 w-28 rounded-full'></div>
-        <h1 className="text-head text-[3rem] leading-[1] font-semibold text-left mt-4 mb-8">
-          Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cells
+        <h1 className="text-head text-[3rem] leading-[1] font-bold text-left mt-4">
+          Inside the Technology That is <br/>Redefining <span className='text-brand'>Energy Security</span> 
         </h1>
-        <img src={aircell} className='object-cover w-full h-[32rem] rounded-2xl'/>
-        <div className='flex flex-row mt-8 justify-between'>
-          <div className='flex flex-col gap-4 pr-16'>
-            <div className='text-head text-3xl font-semibold left-align'>Elaborating the science.</div>
+        <div className='flex flex-row justify-between items-center'>
+          <div className='flex flex-col gap-4 pr-16 w-2/3'>
             <div className='font-medium text-xl text-left text-text tracking-tight '>
             Aluminum-air batteries generate electricity through the oxidation of aluminum at the anode, releasing electrons that flow through an external circuit to the cathode, where oxygen reduction occurs. This electrochemical process involves aluminum reacting with oxygen from the air in the presence of an electrolyte, resulting in the production of electricity. Aluminum-air batteries utilize abundant aluminum, producing energy without harmful emissions. Their recyclable design supports a sustainable, closed-loop energy system.
             </div>
           </div>
-          <img src={alair} className='w-[40rem]'/>
+          <img src={alair} className='w-1/3'/>
         </div>
+        <img src={aircell} className='object-cover w-full h-[32rem] rounded-2xl'/>
       </section>
     </div>
   )
