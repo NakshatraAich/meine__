@@ -115,45 +115,46 @@ const Homepage = () => {
       </section>
 
              
-      <section className='px-6 lg:px-16 pt-32 hidden sm:flex flex-col gap-3'>
+      <section className='px-6 lg:px-16 pt-32 hidden md:flex flex-col gap-3'>
         <div className='bg-brand p-2 w-28 rounded-full'></div>
         <h1 className="text-head text-2xl sm:text-4xl xl:text-[3rem] xl:leading-[1] font-bold text-left mt-4 mb-8">
           Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cells
         </h1>
         <div className='flex flex-col gap-8'>
-          <div className='flex flex-row w-full h-[16rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
-            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" className='flex-grow basis-1/2 bg-gray-200'></img>
-            <div className='flex-grow basis-1/2 pr-10 xl:pr-16 gap-3 flex flex-col justify-center'>
+          <div className='flex flex-row w-full h-[20rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
+            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
+            className='flex-grow w-1/2 bg-gray-200'></img>
+            <div className='flex-grow w-1/2 py-8 pr-10 xl:pr-16 gap-3 flex flex-col justify-center'>
               <div className='text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Paving the way for Sustainable <br className='xl:block hidden'/>Energy</div>
               <div className='font-medium text-lg xl:text-xl text-left text-text tracking-tight xl:pr-48'>
                 Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future
               </div>          
             </div>
           </div>
-          <div className='flex flex-row w-full h-[16rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
-            <div className='basis-1/2 flex flex-col items-center'>
-              <div className='flex-grow pl-[4rem] xl:pl-[6rem] xl:pr-[4rem] gap-3 flex flex-col justify-center'>
-                <div className=' w-fit text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Paving the way for Sustainable Energy</div>
+          <div className='flex flex-row w-full h-[20rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
+            <div className='w-1/2 flex flex-col items-center'>
+              <div className='flex-grow pl-[2rem] py-8 xl:pl-[6rem] xl:pr-[4rem] gap-3 flex flex-col justify-center'>
+                <div className=' w-fit text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Aluminum's Abundant Recycling Potential</div>
                 <div className=' w-fit lg:pr-8 items-end flex flex-col font-medium text-lg xl:text-xl text-left text-text tracking-tight'>
-                  Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future
-                </div>          
+                Technological innovations have significantly enhanced aluminum recycling processes, improving efficiency. These advancements contribute to a more sustainable lifecycle.                </div>          
               </div>
             </div>
-            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"  className='flex-grow basis-1/2 bg-gray-200'></img>
+            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"  
+            className='flex-grow w-1/2 bg-gray-200'></img>
           </div>
-          <div className='flex flex-row w-full h-[16rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
-            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"  className='flex-grow basis-1/2 bg-gray-200'></img>
-            <div className='flex-grow basis-1/2 pr-10 xl:pr-16 gap-3 flex flex-col justify-center'>
-              <div className='text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Paving the way for Sustainable <br className='xl:block hidden'/>Energy</div>
+          <div className='flex flex-row w-full h-[20rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
+            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"  
+            className='flex-grow w-1/2 bg-gray-200'></img>
+            <div className='flex-grow w-1/2 py-8 pr-10 xl:pr-16 gap-3 flex flex-col justify-center'>
+              <div className='text-2xl xl:text-3xl font-semibold text-altHead leading-[1]'>Driving Green Innovation with Zero-Emission Al-Air Fuel Cells</div>
               <div className='font-medium text-lg xl:text-xl text-left text-text tracking-tight xl:pr-48'>
-                Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future
-              </div>          
+              Al-air fuel cells produce electricity through aluminum oxidation, generating no tailpipe emissions—offering clean, eco-friendly energy for transportation.              </div>          
             </div>
           </div>
         </div>
       </section>
 
-      <section className='px-6 lg:px-16 pt-16 sm:hidden flex flex-col gap-3'>
+      <section className='px-6 lg:px-16 pt-16 md:hidden flex flex-col gap-3'>
         <div className='bg-brand p-2 w-16 rounded-full'></div>
         <h1 className="text-head text-2xl leading-[1] font-bold text-left mt-2 mb-6">
           Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cells
@@ -176,10 +177,9 @@ const Homepage = () => {
             src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
             className='h-[24rem]'/>
             <div className='flex flex-col p-6 gap-1'>
-              <div className='text-xl font-semibold text-altHead leading-[1]'>Paving the way for Sustainable <br className='xl:block hidden'/>Energy</div>
+              <div className='text-xl font-semibold text-altHead leading-[1]'>Aluminum's Abundant Recycling <br className='xl:block hidden'/> Potential</div>
               <div className='font-medium text-base text-left text-text tracking-tight'>
-                Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future
-              </div> 
+              Technological innovations have significantly enhanced aluminum recycling processes, improving efficiency. These advancements contribute to a more sustainable lifecycle.              </div> 
             </div> 
           </div>
 
@@ -188,10 +188,9 @@ const Homepage = () => {
             src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
             className='h-[24rem]'/>
             <div className='flex flex-col p-6 gap-1'>
-              <div className='text-xl font-semibold text-altHead leading-[1]'>Paving the way for Sustainable <br className='xl:block hidden'/>Energy</div>
+              <div className='text-xl font-semibold text-altHead leading-[1]'>Driving Green Innovation with Zero-Emission <br className='xl:block hidden'/>Al-Air Fuel Cells </div>
               <div className='font-medium text-base text-left text-text tracking-tight'>
-                Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable power solutions for the future
-              </div> 
+              Al-air fuel cells produce electricity through aluminum oxidation, generating no tailpipe emissions—offering clean, eco-friendly energy for transportation.              </div> 
             </div> 
           </div>
         </div>
