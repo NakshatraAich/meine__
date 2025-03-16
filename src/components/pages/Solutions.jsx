@@ -6,11 +6,11 @@ const Solutions = () => {
   return (
     <div>
       <div 
-        className="sm:block hidden w-full min-h-[90vh] bg-cover lg:bg-contain bg-top bg-no-repeat" 
+        className="sm:block hidden w-full min-h-[100vh] bg-cover lg:bg-contain bg-top bg-no-repeat" 
         style={{ backgroundImage: `url(${heroTech})` }}
       >
 
-        <section className='px-6 xl:px-16 pt-[32rem] xl:pt-[42rem] flex flex-col justify-start gap-2'>
+        <section className='px-6 xl:px-16 pt-[34rem] xl:pt-[42rem] flex flex-col justify-start gap-2'>
             <div className='text-head text-3xl sm:text-3xl leading-[1] xl:text-4xl font-bold text-left'>
             Seamless <span className='text-brand'>Energy Resilience</span> <br/>for a Changing World
             </div>
@@ -21,7 +21,7 @@ const Solutions = () => {
       </div>
 
       <div 
-        className="sm:hidden block w-full min-h-[90vh] bg-cover bg-no-repeat" 
+        className="sm:hidden block w-full min-h-[100vh] bg-cover bg-no-repeat" 
         style={{ backgroundImage: `url(${heroTechSmall})` }}
       >
 
@@ -35,7 +35,7 @@ const Solutions = () => {
         </section>
       </div>
 
-      <section className='px-6 xl:px-16 pt-14 sm:pt-28 flex flex-col gap-3 items-start mb-10 sm:mb-12 w-full '>
+      <section className='px-6 xl:px-16 xl:pt-8 pt-4 sm:pt-28 flex flex-col gap-3 items-start mb-10 sm:mb-12 w-full '>
         <div className='bg-brand p-2 sm:w-28 w-16 rounded-full'></div>
         <h1 className="text-head text-2xl leading-[1] sm:text-4xl xl:text-5xl font-bold text-left mt-2 sm:mt-4 mb-6 ">
         <span className='text-brand'>Instant, Reliable Power</span> When<br/>Failure Is Not an Option
