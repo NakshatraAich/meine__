@@ -78,7 +78,7 @@ const Homepage = () => {
 
       <section>
             <section 
-        className='sm:hidden flex flex-col w-full min-h-[80vh] bg-cover bg-right-top bg-no-repeat'
+        className='sm:hidden flex flex-col w-full min-h-[110vh] bg-cover bg-right-top bg-no-repeat'
         style={{ backgroundImage: `url(${smallHero})` }}
       >
         {/* Spacer div to push content to the bottom */}

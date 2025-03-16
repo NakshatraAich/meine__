@@ -6,26 +6,29 @@ const Solutions = () => {
   return (
     <div>
       <div 
-        className="sm:block hidden w-full min-h-[100vh] bg-cover lg:bg-contain bg-top bg-no-repeat" 
+        className="sm:block hidden w-full min-h-[95vh] bg-cover md:bg-top lg:bg-contain bg-bottom bg-no-repeat" 
         style={{ backgroundImage: `url(${heroTech})` }}
       >
+        <section className="px-6 xl:px-16 flex flex-col min-h-[95vh] gap-2">
+          {/* Spacer to push content down */}
+          <div className="flex-grow"></div> 
 
-        <section className='px-6 xl:px-16 pt-[34rem] xl:pt-[42rem] flex flex-col justify-start gap-2'>
-            <div className='text-head text-3xl sm:text-3xl leading-[1] xl:text-4xl font-bold text-left'>
-            Seamless <span className='text-brand'>Energy Resilience</span> <br/>for a Changing World
-            </div>
-            <div className='w-fit flex flex-col font-medium xl:text-xl md:text-sm text-sm text-left text-text tracking-tight'>
+          <div className="text-head text-3xl sm:text-3xl md:text-4xl font-bold text-left leading-[1]">
+            Seamless <span className="text-brand">Energy Resilience</span> <br/>for a Changing World
+          </div>
+          <div className="w-fit flex flex-col font-medium lg:text-xl md:text-sm text-sm text-left text-text tracking-tight">
             Energy backup is essential in an unpredictable world. Our metal-air technology<br/>provides on-demand, long-duration backup for continuous operations.
-            </div> 
+          </div> 
         </section>
       </div>
 
       <div 
-        className="sm:hidden block w-full min-h-[100vh] bg-cover bg-no-repeat" 
+        className="sm:hidden block w-full min-h-[95vh] bg-cover bg-no-repeat" 
         style={{ backgroundImage: `url(${heroTechSmall})` }}
       >
 
-        <section className='px-6 xl:px-16 pt-[29rem] flex flex-col justify-start gap-2'>
+        <section className='px-6 xl:px-16 flex flex-col min-h-[95vh] justify-start gap-2'>
+            <div className="flex-grow"></div> 
             <div className='text-head text-3xl leading-[1] font-bold text-left'>
             Seamless <span className='text-brand'>Energy Resilience</span> for a Changing World
             </div>
@@ -35,7 +38,7 @@ const Solutions = () => {
         </section>
       </div>
 
-      <section className='px-6 xl:px-16 xl:pt-8 pt-4 sm:pt-28 flex flex-col gap-3 items-start mb-10 sm:mb-12 w-full '>
+      <section className='px-6 xl:px-16 xl:pt-16 pt-12 sm:pt-28 flex flex-col gap-3 items-start mb-10 sm:mb-12 w-full '>
         <div className='bg-brand p-2 sm:w-28 w-16 rounded-full'></div>
         <h1 className="text-head text-2xl leading-[1] sm:text-4xl xl:text-5xl font-bold text-left mt-2 sm:mt-4 mb-6 ">
         <span className='text-brand'>Instant, Reliable Power</span> When<br/>Failure Is Not an Option
