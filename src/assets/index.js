@@ -22,6 +22,7 @@ import aircell from './images/aircell.jpg'
 import alair from './images/alair.png'
 import heroTech from './images/heroTech.png'
 import heroTechSmall from './images/heroTechSmall.png'
+import companyHero from './images/companyHero.png'
 
 import email from './icons/Email.png'
 import phone from './icons/Phone.png'
@@ -51,5 +52,6 @@ export{
     alair,
     heroTech,
     smallHero,
-    heroTechSmall
+    heroTechSmall,
+    companyHero
 }
