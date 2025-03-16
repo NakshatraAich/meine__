@@ -55,8 +55,8 @@ const Newsroom = () => {
   ];
 
   return (
-    <div className='px-16 mt-64 mb-12'>
-      <div className='text-4xl sm:text-6xl lg:text-8xl font-semibold text-head mb-16'>Newsroom</div>
+    <div className='px-6 xl:px-16 mt-32 lg:mt-64 mb-12'>
+      <div className='text-4xl sm:text-6xl lg:text-8xl font-semibold text-head mb-8 lg:mb-16'>Newsroom</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-16">
       {news.map((item, index) => (
           <Newsbox key={index} news={item} />
