@@ -77,21 +77,26 @@ const Homepage = () => {
       </section>
 
       <section>
-        <section 
-          className='sm:hidden flex flex-col w-full min-h-[70vh] bg-cover bg-right-top bg-no-repeat'
-          style={{ backgroundImage: `url(${smallHero})` }}
-        >
-            <div className='px-6 mt-[34rem] font-bold text-left text-head text-3xl leading-[1]'> 
-              Limitless Energy with <span className='text-brand'>Metal Air Fuel Cells</span>
-            </div>
-            <div className='px-6 mt-2 font-sm text-left text-text font-medium tracking-tight'> 
-              Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable energy solutions for the future          
-            </div>
-            <div className='px-6 mt-4 flex flex-row w-full gap-4'>
-              <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand bg-brand text-white font-semibold text-sm rounded-lg'>Schedule A Call</div>
-              <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand text-brand font-semibold text-sm rounded-lg'>Join Us Onboard</div>
-            </div>
-        </section>
+            <section 
+        className='sm:hidden flex flex-col w-full min-h-[80vh] bg-cover bg-right-top bg-no-repeat'
+        style={{ backgroundImage: `url(${smallHero})` }}
+      >
+        {/* Spacer div to push content to the bottom */}
+        <div className="flex-grow"></div>
+
+        {/* Text Content */}
+        <div className="px-6 font-bold text-left text-head text-3xl leading-[1]"> 
+          Limitless Energy with <span className='text-brand'>Metal Air Fuel Cells</span>
+        </div>
+        <div className="px-6 mt-2 font-sm text-left text-text font-medium tracking-tight"> 
+          Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable energy solutions for the future          
+        </div>
+        <div className="px-6 mt-4 flex flex-row w-full gap-4">
+          <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand bg-brand text-white font-semibold text-sm rounded-lg'>Schedule A Call</div>
+          <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand text-brand font-semibold text-sm rounded-lg'>Join Us Onboard</div>
+        </div>
+      </section>
+
 
         <section className='px-6 pt-[4rem] pb-[2rem] sm:hidden flex flex-col gap-3'>
           <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
