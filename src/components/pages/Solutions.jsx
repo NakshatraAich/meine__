@@ -16,7 +16,7 @@ const Solutions = () => {
           <div className="text-head text-3xl sm:text-3xl md:text-4xl font-bold text-left leading-[1]">
             Seamless <span className="text-brand">Energy Resilience</span> <br/>for a Changing World
           </div>
-          <div className="w-fit flex flex-col font-medium lg:text-xl md:text-sm text-sm text-left text-text tracking-tight">
+          <div className="w-fit flex flex-col font-medium lg:text-xl md:text-base text-base text-left text-text tracking-tight">
             Energy backup is essential in an unpredictable world. Our metal-air technology<br/>provides on-demand, long-duration backup for continuous operations.
           </div> 
         </section>

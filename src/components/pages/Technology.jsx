@@ -15,7 +15,7 @@ const Technology = () => {
           <div className='text-head text-3xl xl:text-[2.5rem] leading-[1] font-bold text-left'>
             Engineering the Future of <br className='xl:block hidden'/><span className='text-brand'>Power Generation & Storage.</span>
           </div>
-          <div className='w-fit pr-8 items-end flex flex-col font-medium text-sm sm:text-base lg:text-lg xl:text-xl text-left text-text tracking-tight'>
+          <div className='w-fit pr-8 items-end flex flex-col  lg:text-lg font-medium xl:text-xl md:text-base text-base text-left text-text tracking-tight'>
           MEINE Electric pioneers metal-air fuel cells with <br className='xl:block hidden'/>advanced R&D, strong IP, and a focus on performance,<br className='xl:block hidden'/>scalability, and efficiency.
           </div> 
         </div> 

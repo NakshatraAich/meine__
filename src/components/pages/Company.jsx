@@ -51,7 +51,7 @@ const Company = () => {
           A Single Cell Cannot Power<br className='md:block hidden'/>
           <span className='text-brand'> The World</span> Alone
         </div>
-        <div className="w-fit flex flex-col font-medium lg:text-xl md:text-sm text-sm text-left text-white tracking-tight">
+        <div className="w-fit flex flex-col font-medium lg:text-xl md:text-base text-base text-left text-white tracking-tight">
         We are always on lookout to connect with talented individuals<br className='md:block hidden'/>to join our team and contribute towards a common cause.
         </div> 
       </section>
@@ -80,7 +80,7 @@ const Company = () => {
         <h1 className="text-head text-2xl leading-[1] sm:text-4xl xl:text-5xl font-bold text-left mt-2 ">
           <span className='text-brand'>Join us</span> to make a <br/>change to this world
         </h1>
-        <div className='text-text font-medium text-sm sm:text-xl sm:leading-[1.6rem] tracking-tight mb-8'>
+        <div className='text-text font-medium text-base lg:text-lg xl:text-xl xl:leading-[1.6rem] tracking-tight mb-8'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br className='sm:block hidden'/>tempor incididunt ut labore et dolore magna aliqua.
         </div> 
         <div className='px-2 py-8 w-full sm:py-12 sm:px-8 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>

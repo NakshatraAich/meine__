@@ -36,7 +36,7 @@ const Homepage = () => {
             <h1 className="text-head text-4xl md:text-4xl xl:text-[4.3rem] xl:leading-[1] font-bold text-left">
               Limitless Energy<br/>with <span className='text-brand'>Metal Air Fuel Cells</span>
             </h1>
-            <h2 className='font-medium xl:text-xl md:text-sm text-sm text-left text-text tracking-tight'>
+            <h2 className='font-medium xl:text-xl md:text-base text-base text-left text-text tracking-tight'>
               Revolutionizing energy generation by harnessing the power of metal and<br/>oxygen to create sustainable energy solutions for the future
             </h2>
             <div className='flex flex-row gap-2 md:gap-4 mt-2 md:mt-2 xl:mt-6'>
