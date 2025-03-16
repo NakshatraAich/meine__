@@ -30,18 +30,6 @@ const Navbar = () => {
         </NavLink>
       </motion.div>
 
-      <motion.div 
-        className='xl:px-16 px-6 py-7 fixed xl:hidden flex flex-row justify-between w-full items-center'
-        style={{ backgroundColor }}
-      >
-        <img src={logo} className='md:h-8 h-7'/>
-        
-        <div className="p-2 aspect-square rounded bg-brand flex flex-col items-center justify-center transition-all duration-200 ease-in-out active:scale-[80%] cursor-pointer">
-          <img src={menu} className='md:h-4 h-3'
-          onClick={() => setMenuOpen(true)}/>
-        </div>
-      </motion.div>
-
       <>
       {/* Top Navbar */}
         <motion.div 
