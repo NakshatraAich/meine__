@@ -1,5 +1,6 @@
 import React from 'react'
-import { companyHero } from '../../assets'
+import { companyHero, img5 } from '../../assets'
+import { NavLink } from 'react-router'
 
 const Company = () => {
 
@@ -61,17 +62,17 @@ const Company = () => {
         <h1 className="text-head text-2xl leading-[1] sm:text-4xl xl:text-5xl font-bold text-left mt-2 ">
           About <span className='text-brand'>Meine</span>
         </h1>
-        <div className='text-text font-medium text-sm sm:text-xl sm:leading-[1.6rem] tracking-tight'>
+        <div className='text-text font-medium text-sm sm:text-xl sm:leading-[1.6rem] tracking-tight max-w-[850px] mt-2'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        
         </div>        
         <div className='flex flex-col lg:flex-row mt-2 justify-between w-full md:items-center'>
           <img 
-            src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
-            className='max-w-[56rem] object-cover w-full h-[32rem] rounded-2xl'
+            src={img5} 
+            className='max-w-[1000px] rounded-2xl'
           />
-          <div className='text-sm sm:text-lg font-semibold text-text md:text-right text-center p-2 rounded-md md:self-end hover:underline cursor-pointer'>
-            Check Our Newsroom For Latest News
-          </div>
+          <NavLink to='/Newsroom' className='text-sm sm:text-lg font-semibold text-text md:text-right text-center p-2 rounded-md md:self-end hover:underline cursor-pointer'>
+            <div>Check Our Newsroom For Latest News</div>
+          </NavLink>
         </div>
       </section>
 

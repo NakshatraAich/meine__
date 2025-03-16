@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router'
-import { heroTech, heroTechSmall } from '../../assets'
+import { heroTech, heroTechSmall, img6, img7 } from '../../assets'
 
 const Solutions = () => {
   return (
@@ -44,16 +44,16 @@ const Solutions = () => {
         <span className='text-brand'>Instant, Reliable Power</span> When<br/>Failure Is Not an Option
         </h1>
         <div className='flex flex-col lg:flex-row gap-2 sm:gap-4 w-full'>
-            <div className='p-2 sm:p-4 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-                <img className='rounded-lg w-full h-auto object-cover' src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Description of the image" />
+            <div className='lg:w-1/2 p-2 sm:p-4 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
+              <img className='rounded-lg w-full h-[250px] sm:h-[300px] object-cover' src={img7} />
                 <div className='py-4'>
                   <h1 className='text-brand font-semibold text-xl sm:text-3xl xl:text-4xl'>Power Generation Capsule</h1>
                   <h2 className='text-head font-semibold text-base sm:text-xl pb-3'>200W - 1000W</h2>
                   <h3 className='text-text font-medium text-sm sm:text-xl sm:leading-[1.6rem] tracking-tight'>15+ hours of portable noise free energy backup.<br/>Suitable for remote, hard to reach areas.</h3>
                 </div>
             </div>
-            <div className='p-2 sm:p-4 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
-                <img className='rounded-lg w-full h-auto object-cover' src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="Description of the image" />
+            <div className='lg:w-1/2 p-2 sm:p-4 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'>
+              <img className='rounded-lg w-full h-[250px] sm:h-[300px] object-cover' src={img6} />
                 <div className='py-4'>
                   <h1 className='text-brand font-semibold text-xl sm:text-3xl xl:text-4xl'>Aluminum Air Gensets</h1>
                   <h2 className='text-head font-semibold text-base sm:text-xl pb-3'>1000W - 5000W</h2>
@@ -63,8 +63,8 @@ const Solutions = () => {
         </div>
         <NavLink 
           to="/Contact" 
-          className='sm:mt-4 mt-1 pl-4 text-brand rounded-lg xl:text-2xl text-lg text-center self-center pr-4 font-semibold 
-                      transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'>
+          className='sm:mt-4 mt-1 text-brand text-sm text-center self-center font-semibold 
+                      hover:underline'>
           Contact Us to know more
         </NavLink>
       </section>

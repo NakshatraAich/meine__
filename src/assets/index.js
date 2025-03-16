@@ -23,6 +23,13 @@ import alair from './images/alair.png'
 import heroTech from './images/heroTech.png'
 import heroTechSmall from './images/heroTechSmall.png'
 import companyHero from './images/companyHero.png'
+import img1 from './images/1.webp'
+import img2 from './images/2.webp'
+import img3 from './images/3.webp'
+import img4 from './images/4.webp'
+import img5 from './images/5.webp'
+import img6 from './images/6.webp'
+import img7 from './images/7.webp'
 
 import email from './icons/Email.png'
 import phone from './icons/Phone.png'
@@ -55,5 +62,12 @@ export{
     smallHero,
     heroTechSmall,
     companyHero,
-    menu
+    menu,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7
 }

@@ -4,14 +4,14 @@ import { cogen, elec, elec2, carbon, aircell, alair } from '../../assets'
 const Technology = () => {
   return (
     <div>
-      <section className='xl:mr-16 px-6 sm:px-12 xl:px-16 pt-40 sm:pt-56 flex lg:flex-row flex-col justify-center items-center gap-1 sm:gap-12 xl:gap-16'>
+      <section className='xl:mr-16 px-6 sm:px-12 xl:px-16 pt-48 sm:pt-56 flex lg:flex-row flex-col justify-center items-center gap-1 sm:gap-12 xl:gap-16'>
         <div className='flex flex-row gap-1 mb-20 basis-1/2 justify-end'>
-          <div><img src={cogen} className='w-24 h-[20rem] object-cover object-[40%_30%] rounded-xl mt-12'/></div>
-          <div><img src={elec} className='w-24 h-[24rem] object-cover object-[70%_80%] rounded-xl -mt-20'/></div>
-          <div><img src={elec2} className='w-24 h-[22rem] object-cover object-[50%_10%] rounded-xl mt-20'/></div>
-          <div><img src={carbon} className='w-24 h-[20rem] object-cover object-[30%_20%] rounded-xl -mt-4'/></div>
+          <div><img src={cogen} className='w-20 h-[16rem] sm:w-24 sm:h-[20rem] object-cover object-[40%_30%] rounded-xl mt-12'/></div>
+          <div><img src={elec} className='w-20 h-[20rem] sm:w-24 sm:h-[24rem] object-cover object-[70%_80%] rounded-xl -mt-20'/></div>
+          <div><img src={elec2} className='w-20 h-[18rem] sm:w-24 sm:h-[22rem] object-cover object-[50%_10%] rounded-xl mt-20'/></div>
+          <div><img src={carbon} className='w-20 h-[16rem] sm:w-24 sm:h-[20rem] object-cover object-[30%_20%] rounded-xl -mt-4'/></div>
         </div>   
-        <div className='sm:-mt-28 flex flex-col gap-2 basis-1/2'>
+        <div className='-mt-12 sm:-mt-28 flex flex-col gap-2 basis-1/2'>
           <div className='text-head text-3xl xl:text-[2.5rem] leading-[1] font-bold text-left'>
             Engineering the Future of <br className='xl:block hidden'/><span className='text-brand'>Power Generation & Storage.</span>
           </div>

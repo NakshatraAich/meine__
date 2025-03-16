@@ -12,11 +12,11 @@ const Footer = () => {
           title: 'Navigation',
           content: 
           <div className='flex flex-col text-semibold'>
-            <div>Homepage</div>
-            <div>Technology</div>
-            <div>Solutions</div>
-            <div>Company</div>
-            <div>Newsroom</div>
+            <NavLink to="/" className={({ isActive }) => isActive ? 'text-brand cursor-pointer' : 'text-white cursor-pointer'}>Homepage</NavLink>
+            <NavLink to="/Technology" className={({ isActive }) => isActive ? 'text-brand cursor-pointer' : 'text-white cursor-pointer'}>Technology</NavLink>
+            <NavLink to="/Solutions" className={({ isActive }) => isActive ? 'text-brand cursor-pointer' : 'text-white cursor-pointer'}>Solutions</NavLink>
+            <NavLink to="/Company" className={({ isActive }) => isActive ? 'text-brand cursor-pointer' : 'text-white cursor-pointer'}>Company</NavLink>
+            <NavLink to="/Contact" className={({ isActive }) => isActive ? 'text-brand cursor-pointer' : 'text-white cursor-pointer'}>Contact</NavLink>
           </div>,
         },
         {
@@ -27,8 +27,8 @@ const Footer = () => {
           title: 'Social',
           content: 
           <div className='flex flex-col text-semibold'>
-            <div>Linkedin</div>
-            <div>Instagram</div>
+            <div className='hover:underline cursor-pointer'><a target="_blank" href='https://www.linkedin.com/company/meineelectric/posts/?feedView=all'>Linkedin</a></div>
+            <div className='hover:underline cursor-pointer'><a target="_blank" href='https://www.instagram.com/meineelectric/'>Instagram</a></div>
           </div>,
         },
       ]
@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className='text-[0.6rem] sm:text-[0.7rem] text-center xl:text-left'>&copy; MEINE ELECTRIC PVT. LTD. 2025</div>
                 <div className='text-4xl sm:text-5xl xl:text-6xl font-semibold xl:mb-4 xl:whitespace-nowrap xl:text-left text-center'>Tomorrow is powered by <span className='text-brand'>metal.</span></div>
                 <div className='pt-8 flex flex-col xl:flex-row gap-4 xl:gap-12 items-center'>
-                    <div className='bg-brand rounded-md font-semibold py-3 px-8 text-sm w-fit'>
+                    <div className='bg-brand rounded-md font-semibold py-3 px-8 text-sm w-fit transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'>
                         Contact Us
                     </div>
                     <div className='flex flex-row gap-4'>
@@ -57,17 +57,16 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex-grow hidden xl:flex flex-col justify-between gap-4'>
-            <div>
-                <div className='text-sm text-white'>NAVIGATION</div>
-                <div className='text-sm text-text tracking-tight grid grid-cols-5 xl:grid-cols-3 gap-y-[0.1rem] gap-x-1'>
-                    <div>Homepage</div>
-                    <div>Technology</div>
-                    <div>Solutions</div>
-                    <div>Company</div>
-                    <div>Newsroom</div>
+                <div>
+                    <div className='text-sm text-white'>NAVIGATION</div>
+                    <div className='text-sm text-text tracking-tight grid grid-cols-5 xl:grid-cols-3 gap-y-[0.1rem] gap-x-1'>
+                        <NavLink to="/" className={({ isActive }) => isActive ? 'text-brand font-semibold cursor-pointer' : 'text-text cursor-pointer'}>Homepage</NavLink>
+                        <NavLink to="/Technology" className={({ isActive }) => isActive ? 'text-brand font-semibold cursor-pointer' : 'text-text cursor-pointer'}>Technology</NavLink>
+                        <NavLink to="/Solutions" className={({ isActive }) => isActive ? 'text-brand font-semibold cursor-pointer' : 'text-text cursor-pointer'}>Solutions</NavLink>
+                        <NavLink to="/Company" className={({ isActive }) => isActive ? 'text-brand font-semibold cursor-pointer' : 'text-text cursor-pointer'}>Company</NavLink>
+                        <NavLink to="/Contact" className={({ isActive }) => isActive ? 'text-brand font-semibold cursor-pointer' : 'text-text cursor-pointer'}>Contact</NavLink>
+                    </div>
                 </div>
-            </div>
-
                 <div>
                     <div className='text-sm text-white'>ADDRESS</div>
                     <div className='text-sm text-text tracking-tight flex flex-row gap-4'>
@@ -77,8 +76,8 @@ const Footer = () => {
                 <div>
                     <div className='text-sm text-white'>SOCIAL</div>
                     <div className='text-sm text-text tracking-tight flex flex-row gap-4'>
-                        <div>Linkedin</div>
-                        <div>Instagram</div>
+                        <div className='hover:underline cursor-pointer'><a target="_blank" href='https://www.linkedin.com/company/meineelectric/posts/?feedView=all'>Linkedin</a></div>
+                        <div className='hover:underline cursor-pointer'><a target="_blank" href='https://www.instagram.com/meineelectric/'>Instagram</a></div>
                     </div>
                 </div>
             </div>
