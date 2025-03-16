@@ -32,7 +32,7 @@ const Homepage = () => {
         className="hidden sm:block w-full min-h-[70vh] bg-contain bg-right-top bg-no-repeat" 
         style={{ backgroundImage: `url(${hero})` }}
       >
-          <section className="text-center px-6 lg:px-16 pt-[8rem] md:pt-[10rem] xl:pt-[16rem] flex flex-col gap-1 md:gap-2 xl:gap-3">
+          <section className="text-center px-6 xl:px-16 pt-[8rem] md:pt-[10rem] xl:pt-[16rem] flex flex-col gap-1 md:gap-2 xl:gap-3">
             <h1 className="text-head text-4xl md:text-4xl xl:text-[4.3rem] xl:leading-[1] font-bold text-left">
               Limitless Energy<br/>with <span className='text-brand'>Metal Air Fuel Cells</span>
             </h1>
@@ -55,14 +55,14 @@ const Homepage = () => {
             </div>
           </section>
           
-          <section className='px-6 lg:px-16 pt-[6rem] md:pt-[8rem] xl:pt-[18rem] flex flex-col gap-3'>
+          <section className='px-6 xl:px-16 pt-[6rem] md:pt-[8rem] xl:pt-[18rem] flex flex-col gap-3'>
             <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
               About <span className='text-brand'>Meine Electric</span>
             </div>
             <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight max-w-[1000px]'>
             MEINE Electric is an Indian deep-tech company at the forefront of energy innovation. We are developing cutting-edge metal-air technology to deliver multi-day, reliable, and cost-effective energy backup—reinventing energy security and powering a sustainable future.
             </div>
-            <div className='text-sm md:text-base font-semibold text-head mt-4'>
+            <div className='text-sm md:text-base font-semibold text-head mt-9'>
               Backed By
             </div>
             <div className='flex flex-row flex-wrap gap-4 md:gap-12'>
@@ -113,7 +113,7 @@ const Homepage = () => {
         </section> 
       </section>
              
-      <section className='px-6 lg:px-16 pt-32 hidden md:flex flex-col gap-3'>
+      <section className='px-6 xl:px-16 pt-32 hidden md:flex flex-col gap-3'>
         <div className='bg-brand p-2 w-28 rounded-full'></div>
         <h1 className="text-head text-2xl sm:text-4xl xl:text-[3rem] xl:leading-[1] font-bold text-left mt-4 mb-8">
           Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cell
@@ -139,7 +139,7 @@ const Homepage = () => {
                 </div>          
               </div>
             </div>
-            <img src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"  
+            <img src="https://sympower.net/hubfs/BESS-Demand-Response-Whats-the-Connection-1920-1080px.jpg"  
             className='flex-grow w-1/2 bg-gray-200'></img>
           </div>
           <div className='flex flex-row w-full h-[20rem] xl:h-[24rem] rounded-3xl shadow-[0_15px_80px_rgba(120,121,121,0.2)] gap-8 lg:gap-24 xl:gap-32 overflow-hidden'>
@@ -155,7 +155,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className='px-6 lg:px-16 pt-16 md:hidden flex flex-col gap-3'>
+      <section className='px-6 xl:px-16 pt-16 md:hidden flex flex-col gap-3'>
         <div className='bg-brand p-2 w-16 rounded-full'></div>
         <h1 className="text-head text-2xl leading-[1] font-bold text-left mt-2 mb-6">
           Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cell
@@ -174,7 +174,7 @@ const Homepage = () => {
 
           <div className='flex flex-col rounded-3xl overflow-hidden shadow-[0_15px_80px_rgba(120,121,121,0.4)]'>
             <img 
-            src="https://plus.unsplash.com/premium_photo-1701090939615-1794bbac5c06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" 
+            src="https://www.google.com/search?q=BESS&sca_esv=35ef7b4f76913803&udm=2&biw=1536&bih=782&sxsrf=AHTn8zopGtDAWMsXg5uPTFh_aGWPKaSzdg%3A1741869931070&ei=a9PSZ6f6A86XnesPt9-m8Qk&ved=0ahUKEwjn2_GTi4eMAxXOS2cHHbevKZ4Q4dUDCBE&uact=5&oq=BESS&gs_lp=EgNpbWciBEJFU1NInwRQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAJgCAKACAJgDAJIHAKAHAA&sclient=img#vhid=YTnUAyHbb3j6mM&vssid=mosaic" 
             className='h-[24rem]'/>
             <div className='flex flex-col p-6 gap-1'>
               <div className='text-xl font-semibold text-altHead leading-[1]'>Clean energy for a decarbonized future.</div>
@@ -198,7 +198,7 @@ const Homepage = () => {
 
       </section>
 
-      <section className='px-6 lg:px-16 pt-20 flex flex-col gap-3 items-center'>
+      <section className='px-6 xl:px-16 pt-20 flex flex-col gap-3 items-center'>
         <div className='bg-brand w-16 p-2 sm:w-28 rounded-full'></div>
         <h1 className="text-head text-2xl sm:text-4xl xl:text-5xl font-bold text-center mt-2 sm:mt-4 mb-6 sm:mb-8">
         Breakthrough <span className='text-brand'>Energy Technology</span><br/>for a Resilient World
@@ -219,7 +219,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className='px-6 lg:px-16 pt-20 flex flex-col gap-3 imb-12 tems-start mb-12'>
+      <section className='px-6  xl:px-16 pt-20 flex flex-col gap-3 imb-12 tems-start mb-12'>
         <div className='text-head text-2xl font-semibold left-align'>Latest News</div>
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between gap-8'>
           {news.map((item, index) => (

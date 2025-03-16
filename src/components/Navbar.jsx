@@ -30,7 +30,7 @@ const Navbar = () => {
         </NavLink>
       </motion.div>
       <motion.div 
-        className='lg:px-16 px-6 py-7 fixed xl:hidden flex flex-row justify-between w-full items-center'
+        className='xl:px-16 px-6 py-7 fixed xl:hidden flex flex-row justify-between w-full items-center'
         style={{ backgroundColor }}>
         <img src={logo} className='md:h-8 h-7'/>
         {/* <motion.div 

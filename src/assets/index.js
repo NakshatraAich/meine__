@@ -21,6 +21,7 @@ import dam from './images/dam.png'
 import aircell from './images/aircell.jpg'
 import alair from './images/alair.png'
 import heroTech from './images/heroTech.png'
+import heroTechSmall from './images/heroTechSmall.png'
 
 import email from './icons/Email.png'
 import phone from './icons/Phone.png'
@@ -49,5 +50,6 @@ export{
     aircell,
     alair,
     heroTech,
-    smallHero
+    smallHero,
+    heroTechSmall
 }
