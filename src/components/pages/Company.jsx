@@ -44,7 +44,7 @@ const Company = () => {
   return (
     <div>
       <section px-6 
-        className="px-6 xl:px-16 pt-[24rem] mt-[5rem] md:mt-[5.4rem] lg:mt-[5.5rem] xl:mt-28 flex flex-col justify-start font-bold text-5xl items-start text-white bg-cover bg-center pb-10" 
+        className="px-6 xl:px-16 pt-[24rem] mt-[6rem] md:mt-[5.4rem] lg:mt-[5.5rem] xl:mt-28 flex flex-col justify-start font-bold text-5xl items-start text-white bg-cover bg-center pb-10" 
         style={{ backgroundImage: `url(${companyHero})` }}
       >
         <div className='text-white text-3xl md:text-4xl font-bold text-left leading-[1] rounded-lg mb-2'>
