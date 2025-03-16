@@ -26,6 +26,7 @@ import companyHero from './images/companyHero.png'
 
 import email from './icons/Email.png'
 import phone from './icons/Phone.png'
+import menu from './icons/Menu.png'
 
 export{
     logo,
@@ -53,5 +54,6 @@ export{
     heroTech,
     smallHero,
     heroTechSmall,
-    companyHero
+    companyHero,
+    menu
 }
