@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { hero, smallHero, antler, grad, venture, arai, aim, hdfc, img1, img2, img3, img4 } from '../../assets';
+import { hero, smallHero, antler, grad, venture, arai, aim, hdfc, img1, img2, img3, img4, news1, news2, news3 } from '../../assets';
 import Newsbox from '../Newsbox';
 
 import { NavLink } from 'react-router';
@@ -10,18 +10,18 @@ const Homepage = () => {
   const news = [
     {
       date: '12-Jan-2024',
-      image: null,
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'
+      image: news1,
+      content: 'MEINE Electric Wins Student Startup of the Year 2024 at Micelio Mobility Awards!'
     },
     {
       date: '15-Jan-2024',
-      image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+      image: news2,
+      content: 'MEINE Electric Shines on CNBC-TV18 as a Top 5 Finalist in #LeapToUnicorn Season 2!'
     },
     {
       date: '15-Jan-2024',
-      image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+      image: news3,
+      content: 'MEINE Electric Recognized at Microsoft\'s Tech Sector Decarbonization Innovation Challenge!'
     },
   ];
   
