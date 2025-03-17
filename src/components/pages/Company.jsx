@@ -63,7 +63,7 @@ const Company = () => {
           About <span className='text-brand'>Meine</span>
         </h1>
         <div className='text-text font-medium text-sm sm:text-xl sm:leading-[1.6rem] tracking-tight max-w-[850px] mt-2'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        
+        MEINE Electric, founded in 2022 by Priyansh Mohan and Stuti Kakkar, specializes in metal-air fuel cells and renewable energy solutions. Focused on sustainable technology, the company offers efficient and environmentally friendly energy storage systems.  
         </div>        
         <div className='flex flex-col lg:flex-row mt-2 justify-between w-full md:items-center'>
           <img 
@@ -82,7 +82,7 @@ const Company = () => {
           <span className='text-brand'>Join us</span> to make a <br/>change to this world
         </h1>
         <div className='text-text font-medium text-base lg:text-lg xl:text-xl xl:leading-[1.6rem] tracking-tight mb-8'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br className='sm:block hidden'/>tempor incididunt ut labore et dolore magna aliqua.
+        Joining forces, we can address pressing global challenges,promote sustainability, <br className='hidden sm:block'/>and create a brighter future for all.
         </div> 
         <form className='px-2 py-8 w-full sm:py-12 sm:px-8 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'
         action="https://formspree.io/f/xdoqoyee" 
