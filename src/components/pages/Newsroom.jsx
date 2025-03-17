@@ -6,33 +6,33 @@ const Newsroom = () => {
   const news = [
     {
       date: '12-Jan-2024',
-      image: null,
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'
+      image: 'https://micelio.com/wp-content/uploads/2024/12/DSC00543-scaled.jpg',
+      content: 'MEINE Electric Wins Student Startup of the Year 2024 at Micelio Mobility Awards!'
     },
     {
       date: '15-Jan-2024',
-      image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+      image: 'https://images.moneycontrol.com/static-mcnews/2025/02/20250204092502_Video-3.png?impolicy=website&width=1600&height=900',
+      content: 'MEINE Electric Shines on CNBC-TV18 as a Top 5 Finalist in #LeapToUnicorn Season 2!'
     },
     {
       date: '15-Jan-2024',
-      image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+      image: 'https://drive.usercontent.google.com/download?id=18aV6EgLsKGkkPfg-0MmE82zpYRaQ4ETa',
+      content: 'MEINE Electric Recognized at Microsoft\'s Tech Sector Decarbonization Innovation Challenge!'
     },
     {
       date: '12-Jan-2024',
       image: null,
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'
+      content: 'MEINE Electric Featured on CNBC-TV18 Young Turks: A Milestone in Our Journey!'
     },
     {
       date: '15-Jan-2024',
       image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+      content: 'MEINE Electric Featured in Antler\'s ESG & Impact Report as a Key Driver of Sustainability in India!'
     },
     {
       date: '15-Jan-2024',
       image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+      content: 'Insights from Smile Summit: Strengthening Local Supply Chains & Innovation Resilience'
     },{
       date: '12-Jan-2024',
       image: null,
