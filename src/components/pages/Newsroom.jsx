@@ -32,25 +32,22 @@ const Newsroom = () => {
     {
       date: '15-Jan-2024',
       image: null,
+      content: 'Investing in Meine Electric: Creating a solution for limitless renewable energy'
+    },
+    {
+      date: '15-Jan-2024',
+      image: null,
       content: 'Insights from Smile Summit: Strengthening Local Supply Chains & Innovation Resilience'
-    },{
+    },
+    {
       date: '12-Jan-2024',
       image: null,
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'
+      content: 'MEINE Electric Showcased to Anna University\'s Vice Chancellor & Former NSIC CMD'
     },
     {
       date: '15-Jan-2024',
       image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
-    },
-    {
-      date: '15-Jan-2024',
-      image: null,
-      content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
-    },{
-      date: '12-Jan-2024',
-      image: null,
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'
+      content: 'MEINE Electric Wins Tamil Nadu Student Innovators (TNSI) Award 2024!'
     }
   ];
 
