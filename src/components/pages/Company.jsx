@@ -84,39 +84,67 @@ const Company = () => {
         <div className='text-text font-medium text-base lg:text-lg xl:text-xl xl:leading-[1.6rem] tracking-tight mb-8'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br className='sm:block hidden'/>tempor incididunt ut labore et dolore magna aliqua.
         </div> 
-        <form className='px-2 py-8 w-full sm:py-12 sm:px-8 rounded-xl justify-center items-center shadow-[0_15px_80px_rgba(120,121,121,0.3)]'
-        action="https://formspree.io/f/xdoqoyee" method="POST">
+        <form className='px-2 py-8 w-full sm:py-12 sm:px-8 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'
+        action="https://formspree.io/f/xdoqoyee" 
+        method="POST"
+        >
           <div className='text-xl font-semibold mb-8'>Tell Us More About Yourself</div>
           
           <div className='text-sm font-semibold text-text mb-2'>Email Address</div>
           
           <input 
             type="email" 
-            className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[33%] mb-6 focus:outline-none"
+            className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] mb-6 focus:outline-none"
             placeholder="Enter your email"
+            required
           />
           
           <div className='text-sm font-semibold text-text mb-2'>Message</div>
           
           <textarea
-            className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[33%] focus:outline-none mb-8"
+            className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] focus:outline-none mb-8"
             rows="12"
             placeholder="Enter your message"
-          >          
+            required
+          >
           </textarea>
-
-          <div className='mb-8 font-semibold text-text self-center'>-or-</div>
-
-          <div className='text-sm font-semibold text-text mb-2'>Upload Your CV</div>
-          <input id='file' type='file' className='w-full mb-8'></input>
           
           <div className='flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 w-full'>
-            <div className='bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center'>
+            {/* Send Button */}
+            <button type="submit" className='transition-all duration-200 ease-in-out active:scale-95 cursor-pointer bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center'>
               Send
-            </div>
+            </button>
+
+            <div className='text-text font-semibold'>-or-</div>
+
+            {/* Hidden File Input */}
+            <input 
+              id="file-input" 
+              type="file" 
+              name="cv"
+              className="hidden"
+              onChange={(e) => {
+                const fileName = e.target.files.length ? e.target.files[0].name : "No file chosen";
+                document.getElementById("file-name").innerText = "Submitted";
+                if (e.target.files.length > 0) {
+                  e.target.form.submit(); // Auto-submit when a file is selected
+                }
+              }} 
+              required
+            />
+
+            {/* Upload Button Triggers File Input */}
+            <button 
+              type="button"
+              onClick={() => document.getElementById('file-input').click()} 
+              className='bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'
+            >
+              Submit Your CV
+            </button>
           </div>
 
-          
+          {/* File Name Display */}
+          <p id="file-name" className="text-sm text-gray-500 text-center mt-4">Selecting A Document Automatically Submits The Form</p>
         </form>
       </section>
 
