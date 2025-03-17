@@ -1,52 +1,53 @@
 import React from 'react'
 import Newsbox from '../Newsbox';
+import { news1,news2,news3,news4,news5,news6,news7,news8,news9 } from '../../assets';
 
 const Newsroom = () => {
   
   const news = [
     {
       date: '12-Jan-2024',
-      image: 'https://micelio.com/wp-content/uploads/2024/12/DSC00543-scaled.jpg',
+      image: news1,
       content: 'MEINE Electric Wins Student Startup of the Year 2024 at Micelio Mobility Awards!'
     },
     {
       date: '15-Jan-2024',
-      image: 'https://images.moneycontrol.com/static-mcnews/2025/02/20250204092502_Video-3.png?impolicy=website&width=1600&height=900',
+      image: news2,
       content: 'MEINE Electric Shines on CNBC-TV18 as a Top 5 Finalist in #LeapToUnicorn Season 2!'
     },
     {
       date: '15-Jan-2024',
-      image: 'https://drive.usercontent.google.com/download?id=18aV6EgLsKGkkPfg-0MmE82zpYRaQ4ETa',
+      image: news3,
       content: 'MEINE Electric Recognized at Microsoft\'s Tech Sector Decarbonization Innovation Challenge!'
     },
     {
       date: '12-Jan-2024',
-      image: null,
+      image: news4,
       content: 'MEINE Electric Featured on CNBC-TV18 Young Turks: A Milestone in Our Journey!'
     },
     {
       date: '15-Jan-2024',
-      image: null,
+      image: news5,
       content: 'MEINE Electric Featured in Antler\'s ESG & Impact Report as a Key Driver of Sustainability in India!'
     },
     {
       date: '15-Jan-2024',
-      image: null,
+      image: news6,
       content: 'Investing in Meine Electric: Creating a solution for limitless renewable energy'
     },
     {
       date: '15-Jan-2024',
-      image: null,
+      image: news7,
       content: 'Insights from Smile Summit: Strengthening Local Supply Chains & Innovation Resilience'
     },
     {
       date: '12-Jan-2024',
-      image: null,
+      image: news8,
       content: 'MEINE Electric Showcased to Anna University\'s Vice Chancellor & Former NSIC CMD'
     },
     {
       date: '15-Jan-2024',
-      image: null,
+      image: news9,
       content: 'MEINE Electric Wins Tamil Nadu Student Innovators (TNSI) Award 2024!'
     }
   ];

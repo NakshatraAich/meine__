@@ -35,6 +35,17 @@ import email from './icons/Email.png'
 import phone from './icons/Phone.png'
 import menu from './icons/Menu.png'
 
+import news1 from './news/N1.jpeg'
+import news2 from './news/N2.png'
+import news3 from './news/N3.jpeg'
+import news4 from './news/N4.jpeg'
+import news5 from './news/N5.png'
+import news6 from './news/N6.png'
+import news7 from './news/N7.jpeg'
+import news8 from './news/N8.jpeg'
+import news9 from './news/N9.jpeg'
+
+
 export{
     logo,
     hero,
@@ -69,5 +80,14 @@ export{
     img4,
     img5,
     img6,
-    img7
+    img7,
+    news1,
+    news2,
+    news3,
+    news4,
+    news5,
+    news6,
+    news7,
+    news8,
+    news9,
 }
