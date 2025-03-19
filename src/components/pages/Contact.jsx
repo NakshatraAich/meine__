@@ -8,7 +8,7 @@ const Contact = () => {
           Get In <span className='text-brand'>Touch</span> With Us
         </div>
         <div className='text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-altHead mt-4 lg:mt-6 px-6 sm:px-12'>
-          support@meineelectric.com
+          contact@meineelectric.com
         </div>
 
         <div className='rounded-3xl gap-4 flex flex-col sm:flex-row flex-wrap justify-between shadow-[0_15px_80px_rgba(120,121,121,0.3)] p-8 sm:p-16 mt-10 lg:mt-20 w-full'>
@@ -30,7 +30,7 @@ const Contact = () => {
           <div className='flex flex-col gap-4 text-xl xl:text-2xl font-semibold'>
             <h1>Contact</h1>
             <div className='text-text grid grid-cols-1 text-base xl:text-lg font-medium text-content'>
-              <div className='hover:underline'>+91 91XXX 91XXX</div>
+              <div className='hover:underline'>+91 79812 53458</div>
             </div>
           </div>
         </div>
