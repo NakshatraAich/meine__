@@ -22,7 +22,7 @@ const Navbar = () => {
           <NavLink to="/Technology" className={({ isActive }) => isActive ? 'text-brand' : ''}>Technology</NavLink>
           <NavLink to="/Solutions" className={({ isActive }) => isActive ? 'text-brand' : ''}>Solutions</NavLink>
           <NavLink to="/Company" className={({ isActive }) => isActive ? 'text-brand' : ''}>Company</NavLink>
-          <NavLink to="/Newsroom" className={({ isActive }) => isActive ? 'text-brand' : ''}>Newsroom</NavLink>
+          {/* <NavLink to="/Newsroom" className={({ isActive }) => isActive ? 'text-brand' : ''}>Newsroom</NavLink> */}
         </div>
 
         <NavLink to="/Contact" className='bg-brand px-6 py-3 rounded-lg font-semibold text-sm text-white transition-all duration-200 ease-in-out active:scale-95'>
@@ -73,7 +73,7 @@ const Navbar = () => {
                   visible: { transition: { staggerChildren: 0.2 } }, 
                 }}
               >
-                {["Homepage","Technology", "Solutions", "Company", "Newsroom", "Contact"].map((item, index) => (
+                {["Homepage","Technology", "Solutions", "Company", "Contact"].map((item, index) => (
                   <motion.div 
                     key={index} 
                     variants={{

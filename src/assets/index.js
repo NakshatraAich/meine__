@@ -6,23 +6,21 @@ import grad from './logo/GradCapital.png'
 import hdfc from './logo/HDFC.png'
 import venture from './logo/VentureCatalyst.png'
 
-import hero from './images/hero.png'
-import smallHero from './images/small_hero.png'
-import cogen from './images/cogeneration.jpg'
-import elec from './images/electrolyte.jpg'
-import elec2 from './images/electrolyte2.jpg'
-import carbon from './images/carbon.png'
-import solar from './images/solar.png'
-import lithium from './images/lithium.png'
-import windmill from './images/windmill.png'
-import nature from './images/nature.png'
-import sustainable from './images/sustainable.png'
-import dam from './images/dam.png'
-import aircell from './images/aircell.jpg'
-import alair from './images/alair.png'
-import heroTech from './images/heroTech.png'
-import heroTechSmall from './images/heroTechSmall.png'
-import companyHero from './images/companyHero.png'
+import hero from './images/hero.webp'
+import smallHero from './images/small-hero.webp'
+import cogen from './images/cogeneration.webp'
+import elec from './images/electrolyte.webp'
+import elec2 from './images/electrolyte2.webp'
+import carbon from './images/carbon.webp'
+import solar from './images/solar.webp'
+import lithium from './images/lithium.webp'
+import windmill from './images/windmill.webp'
+import nature from './images/nature.webp'
+import sustainable from './images/sustainable.webp'
+import alair from './images/alair.webp'
+import heroTech from './images/heroTech.webp'
+import heroTechSmall from './images/heroTechSmall.webp'
+import companyHero from './images/companyHero.webp'
 import img1 from './images/1.webp'
 import img2 from './images/2.webp'
 import img3 from './images/3.webp'
@@ -35,15 +33,16 @@ import email from './icons/Email.png'
 import phone from './icons/Phone.png'
 import menu from './icons/Menu.png'
 
-import news1 from './news/N1.jpeg'
-import news2 from './news/N2.png'
-import news3 from './news/N3.jpeg'
-import news4 from './news/N4.jpeg'
-import news5 from './news/N5.png'
-import news6 from './news/N6.png'
-import news7 from './news/N7.jpeg'
-import news8 from './news/N8.jpeg'
-import news9 from './news/N9.jpeg'
+import news1 from './news/N1.webp'
+import news2 from './news/N2.webp'
+import news3 from './news/N3.webp'
+import news4 from './news/N4.webp'
+import news5 from './news/N5.webp'
+import news6 from './news/N6.webp'
+import news7 from './news/N7.webp'
+import news8 from './news/N8.webp'
+import news9 from './news/N9.webp'
+import news10 from './news/N10.webp'
 
 
 export{
@@ -61,13 +60,6 @@ export{
     elec,
     elec2,
     carbon,
-    windmill,
-    sustainable,
-    dam,
-    solar,
-    lithium,
-    nature,
-    aircell,
     alair,
     heroTech,
     smallHero,
@@ -90,4 +82,5 @@ export{
     news7,
     news8,
     news9,
+    news10
 }

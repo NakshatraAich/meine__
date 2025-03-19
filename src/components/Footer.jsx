@@ -39,18 +39,18 @@ const Footer = () => {
                 <div className='text-[0.6rem] sm:text-[0.7rem] text-center xl:text-left'>&copy; MEINE ELECTRIC PVT. LTD. 2025</div>
                 <div className='text-4xl sm:text-5xl xl:text-6xl font-semibold xl:mb-4 xl:whitespace-nowrap xl:text-left text-center'>Tomorrow is powered by <span className='text-brand'>metal.</span></div>
                 <div className='pt-8 flex flex-col xl:flex-row gap-4 xl:gap-12 items-center'>
-                    <div className='bg-brand rounded-md font-semibold py-3 px-8 text-sm w-fit transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'>
+                    <NavLink to='/Contact' className='bg-brand rounded-md font-semibold py-3 px-8 text-sm w-fit transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'>
                         Contact Us
-                    </div>
+                    </NavLink>
                     <div className='flex flex-row gap-4'>
                         <div className='flex flex-row xl:bg-[#2b2b2b] bg-transparent rounded-md font-semibold py-3 px-5 text-sm items-center gap-2'>
                             <img src={phone} className='xl:h-5 sm:h-7 h-5'/>
-                            <div className='text-[0.6rem] xl:text-xs sm:text-sm text-text tracking-tight whitespace-nowrap'>+91 XXXXX XXXXX</div>
+                            <div className='text-[0.6rem] xl:text-xs sm:text-sm text-text tracking-tight whitespace-nowrap'>+91 79812 53458</div>
                         </div>
 
                         <div className='flex flex-row xl:bg-[#2b2b2b] bg-transparent rounded-md font-semibold py-3 px-5 text-sm items-center gap-2'>
                             <img src={email} className='xl:h-5 sm:h-7 h-5'/>
-                            <div className='text-[0.6rem] xl:text-xs sm:text-sm text-text tracking-tight whitespace-nowrap'>support@meineelectric.com</div>
+                            <div className='text-[0.6rem] xl:text-xs sm:text-sm text-text tracking-tight whitespace-nowrap'>contact@meineelectric.com</div>
                         </div>
                     </div>
                     

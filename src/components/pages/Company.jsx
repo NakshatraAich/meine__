@@ -65,14 +65,14 @@ const Company = () => {
         <div className='text-text font-medium text-sm sm:text-xl sm:leading-[1.6rem] tracking-tight max-w-[850px] mt-2'>
         MEINE Electric, founded in 2022 by Priyansh Mohan and Stuti Kakkar, specializes in metal-air fuel cells and renewable energy solutions. Focused on sustainable technology, the company offers efficient and environmentally friendly energy storage systems.  
         </div>        
-        <div className='flex flex-col lg:flex-row mt-2 justify-between w-full md:items-center'>
+        <div className='flex flex-col lg:flex-row mt-2 md:items-end self-start '>
           <img 
             src={img5} 
-            className='max-w-[1000px] rounded-2xl'
+            className='max-w-[800px] rounded-2xl '
           />
-          <NavLink to='/Newsroom' className='text-sm sm:text-lg font-semibold text-text md:text-right text-center p-2 rounded-md md:self-end hover:underline cursor-pointer'>
+          {/* <NavLink to='/Newsroom' className='text-sm sm:text-lg font-semibold text-text md:text-right text-center p-2 rounded-md md:self-end hover:underline cursor-pointer'>
             <div>Check Our Newsroom For Latest News</div>
-          </NavLink>
+          </NavLink> */}
         </div>
       </section>
 

@@ -1,6 +1,10 @@
 import React from 'react';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-import { hero, smallHero, antler, grad, venture, arai, aim, hdfc, img1, img2, img3, img4, news1, news2, news3 } from '../../assets';
+import { hero, smallHero, antler, grad, venture, arai, aim, hdfc, img1, img2, img3, img4} from '../../assets';
+import { news1,news2,news3,news4,news5,news6,news7,news8,news9,news10 } from '../../assets';
 import Newsbox from '../Newsbox';
 
 import { NavLink } from 'react-router';
@@ -8,23 +12,81 @@ import { NavLink } from 'react-router';
 const Homepage = () => {
   
   const news = [
-    {
-      date: '12-Jan-2024',
-      image: news1,
-      content: 'MEINE Electric Wins Student Startup of the Year 2024 at Micelio Mobility Awards!'
-    },
-    {
-      date: '15-Jan-2024',
-      image: news2,
-      content: 'MEINE Electric Shines on CNBC-TV18 as a Top 5 Finalist in #LeapToUnicorn Season 2!'
-    },
-    {
-      date: '15-Jan-2024',
-      image: news3,
-      content: 'MEINE Electric Recognized at Microsoft\'s Tech Sector Decarbonization Innovation Challenge!'
-    },
-  ];
-  
+     {
+       image: news1,
+       content: 'MEINE Electric Wins Student Startup of the Year 2024 at Micelio Mobility Awards.',
+       link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_cleanenergy-meineelectric-movefastbuildthings-ugcPost-7261298015968055296-bkL-/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+      image: news10,
+      content: 'MEINE Electric featured on CNBC-TV18 as a Top 5 Finalist in LeapToUnicorn Season 2',
+      link: 'https://www.linkedin.com/posts/stuti-kakkar_stealth-spotlight-leaptounicorn-activity-7268657594808832001-l6kD/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+       image: news2,
+       content: 'MEINE Electric Named a Top 5 Finalist in #LeapToUnicorn Season 2.',
+       link: 'https://www.linkedin.com/posts/stuti-kakkar_top-5-startups-of-2024-grand-finale-episode-activity-7268519955912888320-crgW/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+       image: news3,
+       content: 'MEINE Electric Recognized at Microsoft\'s Tech Sector Decarbonization Innovation Challenge.',
+       link: 'https://www.linkedin.com/posts/stuti-kakkar_decarbonizing-datacentres-ai-activity-7266715955005665281-ann8/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+       image: news4,
+       content: 'MEINE Electric Featured on CNBC-TV18 Young Turks: A Milestone in Our Journey.',
+       link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_meineelectric-movefastbuildthings-bigthingsahead-ugcPost-7275778387028119552-91rF/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+       image: news5,
+       content: 'MEINE Electric Featured in Antler\'s ESG & Impact Report as a Key Driver of Sustainability in India.',
+       link: 'https://www.linkedin.com/posts/stuti-kakkar_indias-sustainability-leap-activity-7299133370960072704-jLaV/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+       image: news6,
+       content: 'Investing in Meine Electric: Creating a solution for limitless renewable energy',
+       link: 'https://www.antler.co/blog/investing-in-meine-electric-creating-a-solution-for-limitless-renewable-energy'
+     },
+     {
+       image: news7,
+       content: 'Insights from Smile Summit: Strengthening Local Supply Chains & Innovation Resilience',
+       link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_meineelectric-movefastandbuildthings-hydrogenfuelcells-activity-7227715300148862976-2Ut2/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+       image: news8,
+       content: 'MEINE Electric Showcased to Anna University\'s Vice Chancellor & Former NSIC CMD',
+       link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_meineelectric-sustainableenergy-innovation-activity-7215699877467455488-nSrm/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     },
+     {
+       image: news9,
+       content: 'MEINE Electric Wins Tamil Nadu Student Innovators (TNSI) Award 2024.',
+       link: 'https://www.linkedin.com/feed/update/urn:li:activity:7010884927990710272/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
+     }
+   ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <div>
@@ -78,7 +140,7 @@ const Homepage = () => {
 
       <section>
         <section 
-        className='sm:hidden flex flex-col w-full min-h-[100vh] bg-cover bg-right-top bg-no-repeat'
+        className='sm:hidden flex flex-col w-full min-h-[100vh]                                                                        0vh] bg-cover bg-right-top bg-no-repeat'
         style={{ backgroundImage: `url(${smallHero})` }}
       >
         {/* Spacer div to push content to the bottom */}
@@ -92,8 +154,8 @@ const Homepage = () => {
           Revolutionizing energy generation by harnessing the power of metal and oxygen to create sustainable energy solutions for the future          
         </div>
         <div className="px-6 mt-4 flex flex-row w-full gap-4">
-          <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand bg-brand text-white font-semibold text-sm rounded-lg'>Schedule A Call</div>
-          <div className='py-3 px-6 flex-grow text-center border-[3px] border-brand text-brand font-semibold text-sm rounded-lg'>Join Us Onboard</div>
+          <NavLink to='/Contact' className='py-3 px-6 flex-grow text-center border-[3px] border-brand bg-brand text-white font-semibold text-sm rounded-lg'>Schedule A Call</NavLink>
+          <NavLink to='/Company' className='py-3 px-6 flex-grow text-center border-[3px] border-brand text-brand font-semibold text-sm rounded-lg'>Join Us Onboard</NavLink>
         </div>
       </section>
 
@@ -226,16 +288,15 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className='px-6  xl:px-16 pt-20 flex flex-col gap-3 imb-12 tems-start mb-12'>
-        <div className='text-head text-2xl font-semibold left-align'>Latest News</div>
-        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between gap-8'>
+      <section className="px-6 xl:px-16 pt-20 flex flex-col gap-3 items-start mb-12">
+        <div className="text-head text-2xl font-semibold left-align">Latest News</div>
+        <Slider {...settings} className="w-full">
           {news.map((item, index) => (
-            <Newsbox key={index} news={item} />
+            <div key={index} className='px-2'>
+              <Newsbox news={item} />
+            </div>
           ))}
-        </div>
-        <NavLink to="/Newsroom" className='mt-16 text-sm font-semibold text-brand text-center pr-4 hover:underline-1'>
-        <div className='hover:underline'>Check our latest news and featurings</div>
-        </NavLink>
+        </Slider>
       </section>
 
     </div>
