@@ -44,11 +44,6 @@ const Footer = () => {
                     </NavLink>
                     <div className='flex flex-row gap-4'>
                         <div className='flex flex-row xl:bg-[#2b2b2b] bg-transparent rounded-md font-semibold py-3 px-5 text-sm items-center gap-2'>
-                            <img src={phone} className='xl:h-5 sm:h-7 h-5'/>
-                            <div className='text-[0.6rem] xl:text-xs sm:text-sm text-text tracking-tight whitespace-nowrap'>+91 79812 53458</div>
-                        </div>
-
-                        <div className='flex flex-row xl:bg-[#2b2b2b] bg-transparent rounded-md font-semibold py-3 px-5 text-sm items-center gap-2'>
                             <img src={email} className='xl:h-5 sm:h-7 h-5'/>
                             <div className='text-[0.6rem] xl:text-xs sm:text-sm text-text tracking-tight whitespace-nowrap'>contact@meineelectric.com</div>
                         </div>

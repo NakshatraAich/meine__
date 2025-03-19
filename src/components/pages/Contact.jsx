@@ -1,4 +1,5 @@
 import React from 'react'
+import {link, ig} from '../../assets'
 
 const Contact = () => {
   return (
@@ -20,17 +21,11 @@ const Contact = () => {
               </div>
             </div>
           </div> 
-          <div className='flex flex-col gap-4 text-xl xl:text-2xl font-semibold'>
+          <div className='flex flex-col gap-4 text-xl xl:text-2xl font-semibold '>
             <h1>Socials</h1>
-            <div className='text-text grid grid-cols-1 text-base xl:text-lg font-medium text-content'>
-              <div className='hover:underline'>Linkedin</div>
-              <div className='hover:underline'>Instagram</div>
-            </div>
-          </div>
-          <div className='flex flex-col gap-4 text-xl xl:text-2xl font-semibold'>
-            <h1>Contact</h1>
-            <div className='text-text grid grid-cols-1 text-base xl:text-lg font-medium text-content'>
-              <div className='hover:underline'>+91 79812 53458</div>
+            <div className='text-text grid grid-cols-2 text-base xl:text-lg font-medium text-content w-fit -ml-1'>
+              <a target='_blank' href='https://www.instagram.com/meineelectric/' className='hover:underline'><img src={link} className='h-10 opacity-45 hover:opacity-100'/></a>
+              <a target='_blank' href='https://www.linkedin.com/company/meineelectric/posts/?feedView=all'  className='hover:underline'><img src={ig} className='h-10 opacity-45 hover:opacity-100'/></a>
             </div>
           </div>
         </div>
@@ -49,7 +44,6 @@ const Contact = () => {
       <div className='xl:px-16 px-6 mb-8 sm:mb-12 flex flex-col justify-end items-end w-full mt-8'>
         <div className='bg-brand w-16 p-2 sm:w-28 rounded-full'></div>
       </div>
-
     </div>
   )
 }

@@ -27,6 +27,8 @@ import img7 from './images/7.webp'
 import email from './icons/Email.png'
 import phone from './icons/Phone.png'
 import menu from './icons/Menu.png'
+import ig from './icons/Instagram.png'
+import link from './icons/Linkedin.png'
 
 import news1 from './news/N1.webp'
 import news2 from './news/N2.webp'
@@ -77,5 +79,7 @@ export{
     news7,
     news8,
     news9,
-    news10
+    news10,
+    ig,
+    link
 }

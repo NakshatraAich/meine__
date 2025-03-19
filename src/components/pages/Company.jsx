@@ -45,10 +45,10 @@ const Company = () => {
   return (
     <div>
       <section px-6 
-        className="px-6 xl:px-16 pt-[24rem] mt-[6rem] md:mt-[5.4rem] lg:mt-[5.5rem] xl:mt-28 flex flex-col justify-start font-bold text-5xl items-start text-white bg-cover bg-center pb-10" 
+        className="px-6 xl:px-16 pt-[24rem]  mt-[6rem] md:mt-[5.4rem] lg:mt-[5.5rem] xl:mt-28 flex flex-col justify-start font-bold text-5xl items-start text-white bg-cover bg-center pb-10" 
         style={{ backgroundImage: `url(${companyHero})` }}
       >
-        <div className='text-white text-3xl md:text-4xl font-bold text-left leading-[1] rounded-lg mb-2'>
+        <div className='text-white text-3xl xl:text-[2.5rem] font-bold text-left leading-[1] rounded-lg mb-2'>
           A Single Cell Cannot Power<br className='md:block hidden'/>
           <span className='text-brand'> The World</span> Alone
         </div>
@@ -57,18 +57,17 @@ const Company = () => {
         </div> 
       </section>
 
-      <section className='px-6 xl:px-16 xl:pt-16 pt-12 sm:pt-28 flex flex-col gap-3 items-start mb-10 sm:mb-12 w-full '>
+      <section className='px-6 xl:px-16 xl:pt-16 pt-12 sm:pt-28 flex flex-col gap-3 items-start mb-0 sm:mb-12 w-full '>
         <div className='bg-brand p-2 sm:w-28 w-16 rounded-full'></div>
         <h1 className="text-head text-2xl leading-[1] sm:text-4xl xl:text-5xl font-bold text-left mt-2 ">
-          About <span className='text-brand'>Meine</span>
+          About <span className='text-brand'>Meine Electric</span>
         </h1>
         <div className='text-text font-medium text-sm sm:text-xl sm:leading-[1.6rem] tracking-tight max-w-[850px] mt-2'>
-        MEINE Electric, founded in 2022 by Priyansh Mohan and Stuti Kakkar, specializes in metal-air fuel cells and renewable energy solutions. Focused on sustainable technology, the company offers efficient and environmentally friendly energy storage systems.  
-        </div>        
+        MEINE Electric was founded in 2022 by Priyansh Mohan and Stuti Kakkar with a bold vision — to reimagine energy systems for a decentralized, secure, and sustainable future.<br/><br/>Our journey began with a simple yet powerful belief: that the world needs radically better energy solutions to unlock the full potential of renewables and reduce dependence on fossil fuels. From this idea, MEINE Electric has rapidly grown into a powerhouse of innovation, bringing together some of the best minds from across the globe — engineers, scientists, and industry leaders with decades of experience in energy, electrochemistry, and advanced materials.        </div>        
         <div className='flex flex-col lg:flex-row mt-2 md:items-end self-start '>
           <img 
             src={img5} 
-            className='max-w-[800px] rounded-2xl '
+            className='max-w-[800px] w-full shrink rounded-2xl '
           />
           {/* <NavLink to='/Newsroom' className='text-sm sm:text-lg font-semibold text-text md:text-right text-center p-2 rounded-md md:self-end hover:underline cursor-pointer'>
             <div>Check Our Newsroom For Latest News</div>
@@ -81,7 +80,7 @@ const Company = () => {
         <h1 className="text-head text-2xl leading-[1] sm:text-4xl xl:text-5xl font-bold text-left mt-2 ">
           <span className='text-brand'>Join us</span> to make a <br/>change to this world
         </h1>
-        <div className='text-text font-medium text-base lg:text-lg xl:text-xl xl:leading-[1.6rem] tracking-tight mb-8'>
+        <div className='text-text font-medium text-base lg:text-lg xl:text-xl xl:leading-[1.6rem] tracking-tight mb-4'>
         Joining forces, we can address pressing global challenges,promote sustainability, <br className='hidden sm:block'/>and create a brighter future for all.
         </div> 
         <form className='px-2 py-8 w-full sm:py-12 sm:px-8 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'
@@ -103,7 +102,7 @@ const Company = () => {
           
           <textarea
             className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] focus:outline-none mb-8"
-            rows="12"
+            rows="6"
             placeholder="Enter your message"
             required
           >
