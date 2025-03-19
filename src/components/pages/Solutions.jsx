@@ -52,7 +52,7 @@ const Solutions = () => {
         </h1>
         <div className='flex flex-col gap-2 sm:gap-4 w-full'>
             <div className='rounded-3xl flex flex-col lg:flex-row items-center gap-4 sm:gap-16  max-w-[1000px] shadow-[0_15px_80px_rgba(120,121,121,0.3)] px-6 py-4'>
-              <img className='rounded-lg overflow-hidden h-[250px] sm:h-[500px] aspect-square object-cover' src={img6} />
+              <img className='rounded-lg overflow-hidden h-[250px] sm:h-[500px] aspect-square object-contain' src={img6} />
               <div className='py-4 w-full items-start flex flex-col'>
                 <h1 className='text-brand font-semibold text-xl sm:text-3xl xl:text-4xl'>Power Generation Capsule</h1>
                 <h2 className='text-head font-semibold text-base sm:text-xl pb-3'>200W - 1000W</h2>
@@ -60,7 +60,7 @@ const Solutions = () => {
               </div>
             </div>
             <div className='rounded-3xl overflow-hidden flex flex-col lg:flex-row items-center gap-4 sm:gap-16 max-w-[1000px] shadow-[0_15px_80px_rgba(120,121,121,0.3)] lg:self-end px-6 py-4'>
-              <img className='rounded-lg h-[250px] sm:h-[500px] aspect-square object-cover' src={img7} />
+              <img className='rounded-lg h-[250px] sm:h-[500px] aspect-square object-contain' src={img7} />
               <div className='py-4 w-full items-start flex flex-col'>
                 <h1 className='text-brand font-semibold text-xl sm:text-3xl xl:text-4xl'>Aluminum Air Gensets</h1>
                 <h2 className='text-head font-semibold text-base sm:text-xl pb-3'>1000W - 5000W</h2>
