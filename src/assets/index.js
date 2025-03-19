@@ -41,7 +41,6 @@ import news8 from './news/N8.webp'
 import news9 from './news/N9.webp'
 import news10 from './news/N10.webp'
 
-
 export{
     logo,
     hero,
