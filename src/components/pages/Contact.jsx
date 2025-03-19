@@ -24,8 +24,8 @@ const Contact = () => {
           <div className='flex flex-col gap-4 text-xl xl:text-2xl font-semibold '>
             <h1>Socials</h1>
             <div className='text-text grid grid-cols-2 text-base xl:text-lg font-medium text-content w-fit -ml-1'>
-              <a target='_blank' href='https://www.instagram.com/meineelectric/' className='hover:underline'><img src={link} className='h-10 opacity-45 hover:opacity-100'/></a>
-              <a target='_blank' href='https://www.linkedin.com/company/meineelectric/posts/?feedView=all'  className='hover:underline'><img src={ig} className='h-10 opacity-45 hover:opacity-100'/></a>
+              <a target='_blank' href='https://www.instagram.com/meineelectric/' className='hover:underline'><img src={ig} className='h-10 opacity-45 hover:opacity-100'/></a>
+              <a target='_blank' href='https://www.linkedin.com/company/meineelectric/posts/?feedView=all'  className='hover:underline'><img src={link} className='h-10 opacity-45 hover:opacity-100'/></a>
             </div>
           </div>
         </div>
