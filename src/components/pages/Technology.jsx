@@ -64,6 +64,10 @@ const Technology = () => {
           
         </div>
       </section>
+
+      <div className='xl:px-16 px-6 mb-8 sm:mb-12 flex flex-col justify-end items-end'>
+        <div className='bg-brand w-16 p-2 sm:w-28 rounded-full'></div>
+      </div>
     </div>
   )
 }

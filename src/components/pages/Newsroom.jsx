@@ -56,10 +56,13 @@ const Newsroom = () => {
     <div className='px-6 xl:px-16 mt-32 lg:mt-64 mb-12'>
       <div className='text-4xl sm:text-6xl lg:text-8xl font-semibold text-head mb-8 lg:mb-16'>Newsroom</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-8 sm:gap-y-16">
-      {news.map((item, index) => (
-          <Newsbox key={index} news={item} />
-      ))}
-    </div>
+        {news.map((item, index) => (
+            <Newsbox key={index} news={item} />
+        ))}
+      </div>
+      <div className='xl:px-16 px-6 mb-8 sm:mb-12 flex flex-col justify-end items-end'>
+        <div className='bg-brand w-16 p-2 sm:w-28 rounded-full'></div>
+      </div>
     </div>
   )
 }

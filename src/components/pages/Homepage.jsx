@@ -1,16 +1,24 @@
 import React from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import "swiper/css";
+import "swiper/css/navigation";
+import Newsbox from "../Newsbox"; // Ensure correct path
+import { useState, useRef } from "react";
 
 import { hero, smallHero, antler, grad, venture, arai, aim, hdfc, img1, img2, img3, img4} from '../../assets';
 import { news1,news2,news3,news4,news5,news6,news7,news8,news9,news10 } from '../../assets';
-import Newsbox from '../Newsbox';
 
 import { NavLink } from 'react-router';
 
 const Homepage = () => {
-  
+
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+  const [isBeginning, setIsBeginning] = useState(true);
+  const [isEnd, setIsEnd] = useState(false);
+
   const news = [
      {
        image: news1,
@@ -63,30 +71,6 @@ const Homepage = () => {
        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7010884927990710272/?rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A'
      }
    ];
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
 
   return (
     <div>
@@ -288,17 +272,66 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className="px-6 xl:px-16 pt-20 flex flex-col gap-3 items-start mb-12">
-        <div className="text-head text-2xl font-semibold left-align">Latest News</div>
-        <Slider {...settings} className="w-full">
-          {news.map((item, index) => (
-            <div key={index} className='px-2'>
-              <Newsbox news={item} />
-            </div>
-          ))}
-        </Slider>
-      </section>
+      <div className="w-full xl:px-16 px-6 pt-12">
 
+        <div className="flex justify-between items-center mb-4 px-2">
+          <h2 className="text-xl font-bold">Latest News</h2>
+          <div className="flex gap-2">
+            <button
+              ref={prevRef}
+              className={`p-2 rounded-full ${
+                isBeginning ? "bg-gray-300 opacity-30 cursor-not-allowed" : "bg-gray-200 hover:bg-gray-300"
+              }`}
+              disabled={isBeginning}
+            >
+              <ChevronLeft size={20} />
+            </button>
+            <button
+              ref={nextRef}
+              className={`p-2 rounded-full ${
+                isEnd ? "bg-gray-300 opacity-30 cursor-not-allowed" : "bg-gray-200 hover:bg-gray-300"
+              }`}
+              disabled={isEnd}
+            >
+              <ChevronRight size={20} />
+            </button>
+          </div>
+        </div>
+
+        <Swiper
+          modules={[Navigation]}
+          spaceBetween={10}
+          slidesPerView={3} 
+          navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
+          breakpoints={{
+            640: { slidesPerView: 1 }, 
+            1024: { slidesPerView: 2 },
+            1280: { slidesPerView: 3 },
+          }}
+          onInit={(swiper) => {
+            swiper.params.navigation.prevEl = prevRef.current;
+            swiper.params.navigation.nextEl = nextRef.current;
+            swiper.navigation.init();
+            swiper.navigation.update();
+            setIsBeginning(swiper.isBeginning);
+            setIsEnd(swiper.isEnd);
+          }}
+          onSlideChange={(swiper) => {
+            setIsBeginning(swiper.isBeginning);
+            setIsEnd(swiper.isEnd);
+          }}
+        >
+          {news.map((item, index) => (
+            <SwiperSlide key={index} className="px-2">
+              <Newsbox news={item} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+      <div className='xl:px-16 px-6 mb-8 sm:mb-12 flex flex-col justify-end items-end'>
+        <div className='bg-brand w-16 p-2 sm:w-28 rounded-full'></div>
+      </div>
     </div>
   );
 };

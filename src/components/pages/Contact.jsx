@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='flex flex-col items-center mb-8 lg:mb-12'>
+    <div className='flex flex-col items-center'>
       <div className='px-6 flex flex-col'>
         <div className='font-bold text-5xl sm:text-6xl lg:text-7xl xl:text-8xl mt-[10rem] sm:mt-[13rem] text-head px-6 sm:px-12'>
           Get In <span className='text-brand'>Touch</span> With Us
@@ -45,6 +45,11 @@ const Contact = () => {
           referrerPolicy="origin"
         ></iframe>
       </div>
+
+      <div className='xl:px-16 px-6 mb-8 sm:mb-12 flex flex-col justify-end items-end w-full mt-8'>
+        <div className='bg-brand w-16 p-2 sm:w-28 rounded-full'></div>
+      </div>
+
     </div>
   )
 }
