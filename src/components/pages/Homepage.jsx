@@ -301,12 +301,12 @@ const Homepage = () => {
         <Swiper
           modules={[Navigation]}
           spaceBetween={10}
-          slidesPerView={3} 
+          slidesPerView={1} // Default value
           navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
           breakpoints={{
-            640: { slidesPerView: 1 }, 
-            1024: { slidesPerView: 2 },
-            1280: { slidesPerView: 3 },
+            640: { slidesPerView: 1 },
+            700: { slidesPerView: 2 },
+            1000: { slidesPerView: 3 },
           }}
           onInit={(swiper) => {
             swiper.params.navigation.prevEl = prevRef.current;
