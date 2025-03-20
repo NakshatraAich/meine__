@@ -70,7 +70,7 @@ const Solutions = () => {
         </div>
         <NavLink 
           to="/Contact" 
-          className='sm:mt-4 mt-1 text-brand text-3xl text-left self-center font-semibold 
+          className='sm:mt-4 mt-1 text-brand text-3xl self-center text-center font-semibold 
                       hover:underline'>
           Contact Us to know more
         </NavLink>

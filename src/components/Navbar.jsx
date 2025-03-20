@@ -73,7 +73,7 @@ const Navbar = () => {
                   visible: { transition: { staggerChildren: 0.2 } }, 
                 }}
               >
-                {["Homepage","Technology", "Solutions", "Company", "Contact"].map((item, index) => (
+                {["Home","Technology", "Solutions", "Company", "Contact"].map((item, index) => (
                   <motion.div 
                     key={index} 
                     variants={{

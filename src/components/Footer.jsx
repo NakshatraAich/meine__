@@ -71,7 +71,7 @@ const Footer = () => {
                 <div>
                     <div className='text-sm text-white'>SOCIAL</div>
                     <div className='text-sm text-text tracking-tight flex flex-row gap-4'>
-                        <div className='hover:underline cursor-pointer'><a target="_blank" href='https://www.linkedin.com/company/meineelectric/posts/?feedView=all'>Linkedin</a></div>
+                        <div className='hover:underline cursor-pointer'><a target="_blank" href='https://www.linkedin.com/company/meineelectric/posts/?feedView=all'>LinkedIn</a></div>
                         <div className='hover:underline cursor-pointer'><a target="_blank" href='https://www.instagram.com/meineelectric/'>Instagram</a></div>
                     </div>
                 </div>
