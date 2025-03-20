@@ -87,37 +87,37 @@ const Homepage = () => {
             </h2>
             <div className='flex flex-row gap-2 md:gap-4 mt-2 md:mt-2 xl:mt-6'>
               <NavLink 
-                to="/Contact" 
+                to="/Solutions" 
                 className='bg-brand px-6 py-2 lg:px-8 lg:py-3 rounded-lg xl:text-base md:text-sm text-xs text-center text-white border-[2.5px] border-brand font-semibold 
                             transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'>
-                Schedule A Call
+                Learn More
               </NavLink>
               <NavLink 
-                to="/Company" 
+                to="/Contact Us" 
                 className='px-6 py-2 lg:px-8 lg:py-3 rounded-lg xl:text-base md:text-sm text-xs text-brand text-center font-semibold border-[2.5px] border-brand 
                             transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'>
-                Join Us Onboard
+                Contact Us
               </NavLink>
             </div>
           </section>
           
           <section className='px-6 xl:px-16 pt-[6rem] md:pt-[8rem] xl:pt-[18rem] flex flex-col gap-3'>
-            <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
-              About <span className='text-brand'>Meine Electric</span>
-            </div>
-            <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight max-w-[1000px]'>
-            MEINE Electric is an Indian deep-tech company at the forefront of energy innovation. We are developing cutting-edge metal-air technology to deliver multi-day, reliable, and cost-effective energy backup—reinventing energy security and powering a sustainable future.
-            </div>
-            <div className='text-sm md:text-base font-semibold text-head mt-9'>
+          <div className='text-sm md:text-base font-semibold text-head mt-9 text-center'>
               Backed By
             </div>
-            <div className='flex flex-row flex-wrap gap-4 md:gap-12'>
+            <div className='flex flex-row flex-wrap gap-4 md:gap-12 items-center justify-center mb-28'>
               <img src={antler} className='h-7 xl:h-10 grayscale'/>
               <img src={grad} className='h-7 xl:h-10 grayscale'/>
               <img src={venture} className='h-7 xl:h-10 grayscale'/>
               <img src={arai} className='h-7 xl:h-10 grayscale'/>
               <img src={aim} className='h-7 xl:h-10 grayscale'/>
               <img src={hdfc} className='h-7 xl:h-10 grayscale'/>
+            </div>
+            <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
+              About <span className='text-brand'>Meine Electric</span>
+            </div>
+            <div className='font-medium text-sm md:text-lg xl:text-2xl text-left text-text tracking-tight max-w-[1000px]'>
+            MEINE Electric is an Indian deep-tech company at the forefront of energy innovation. We are developing cutting-edge metal-air technology to deliver multi-day, reliable, and cost-effective energy backup—reinventing energy security and powering a sustainable future.
             </div>
           </section>  
       </section>
@@ -144,13 +144,8 @@ const Homepage = () => {
       </section>
 
 
-        <section className='px-6 pt-[4rem] pb-[2rem] sm:hidden flex flex-col gap-3'>
-          <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl'>
-            About <span className='text-brand'>Meine Electric</span>
-          </div>
-          <div className='font-medium text-lg xl:text-2xl text-left text-text tracking-tight'>
-            MEINE Electric is an Indian deep-tech company at the forefront of energy innovation. We are developing cutting-edge metal-air technology to deliver multi-day, reliable, and cost-effective energy backup—reinventing energy security and powering a sustainable future.          </div>
-          <div className='text-sm md:text-base font-semibold text-head mt-4'>
+        <section className='px-6 pt-[4rem] sm:hidden flex flex-col gap-3'>
+          <div className='text-sm md:text-base font-semibold text-head text-center'>
             Backed By
           </div>
           <div className='flex flex-row flex-wrap gap-4 md:gap-12'>
@@ -161,10 +156,16 @@ const Homepage = () => {
             <img src={aim} className='h-7 xl:h-10 grayscale'/>
             <img src={hdfc} className='h-7 xl:h-10 grayscale'/>
           </div>
+          <div className='font-semibold text-head text-2xl md:text-3xl xl:text-4xl mt-12'>
+            About <span className='text-brand'>Meine Electric</span>
+          </div>
+          <div className='font-medium text-lg xl:text-2xl text-left text-text tracking-tight'>
+            MEINE Electric is an Indian deep-tech company at the forefront of energy innovation. We are developing cutting-edge metal-air technology to deliver multi-day, reliable, and cost-effective energy backup—reinventing energy security and powering a sustainable future.          
+          </div>
         </section> 
       </section>
              
-      <section className='px-6 xl:px-16 pt-32 hidden md:flex flex-col gap-3'>
+      <section className='px-6 xl:px-16 pt-16 hidden md:flex flex-col gap-3'>
         <div className='bg-brand p-2 w-28 rounded-full'></div>
         <h1 className="text-head text-2xl sm:text-4xl xl:text-[3rem] xl:leading-[1] font-bold text-left mt-4 mb-8">
           Utilizing <span className='text-brand'>Aluminum</span> To Develop<br/>A New-Age Fuel Cell
