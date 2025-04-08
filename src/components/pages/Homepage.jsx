@@ -22,7 +22,7 @@ const Homepage = () => {
   const news = [
       {
         image: news11,
-        content: 'Awarded the Startup Maharathi by Hon\'ble Minister Shri Piyush Goyal at Startup Mahakumbh 2025',
+        content: 'Felicitated by Hon\'ble Minister of Commerce & Industry Shri Piyush Goyal at Startup Mahakumbh.',
         link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_meinelectric-movefastbuildthings-deeptech-activity-7314505968090800129-HQY7/?rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
       },
      {
