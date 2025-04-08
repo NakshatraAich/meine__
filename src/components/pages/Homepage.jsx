@@ -8,7 +8,7 @@ import Newsbox from "../Newsbox"; // Ensure correct path
 import { useState, useRef } from "react";
 
 import { hero, smallHero, antler, grad, venture, arai, aim, hdfc, img1, img2, img3, img4} from '../../assets';
-import { news1,news2,news3,news4,news5,news6,news7,news8,news9,news10 } from '../../assets';
+import { news1,news2,news3,news4,news5,news6,news7,news8,news9,news10,news11 } from '../../assets';
 
 import { NavLink } from 'react-router';
 
@@ -20,6 +20,11 @@ const Homepage = () => {
   const [isEnd, setIsEnd] = useState(false);
 
   const news = [
+      {
+        image: news11,
+        content: 'Awarded the Startup Maharathi by Hon\'ble Minister Shri Piyush Goyal at Startup Mahakumbh 2025',
+        link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_meinelectric-movefastbuildthings-deeptech-activity-7314505968090800129-HQY7/?rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+      },
      {
        image: news1,
        content: 'MEINE Electric Wins Student Startup of the Year 2024 at Micelio Mobility Awards.',

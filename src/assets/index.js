@@ -40,6 +40,7 @@ import news7 from './news/N7.webp'
 import news8 from './news/N8.webp'
 import news9 from './news/N9.webp'
 import news10 from './news/N10.webp'
+import news11 from './news/N11.webp'
 
 export{
     logo,
@@ -79,6 +80,7 @@ export{
     news8,
     news9,
     news10,
+    news11,
     ig,
     link
 }
