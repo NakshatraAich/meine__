@@ -130,6 +130,9 @@ const Company = () => {
                   file.done((info) => {
                     document.getElementById('uploadcare-file').value = info.cdnUrl;
                     document.getElementById('file-name').innerText = "CV Uploaded ✅";
+
+                    // Submit the form
+                    document.getElementById('contact-form').submit();
                   });
                 })
               }
