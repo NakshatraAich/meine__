@@ -83,68 +83,70 @@ const Company = () => {
         <div className='text-text font-medium text-base lg:text-lg xl:text-xl xl:leading-[1.6rem] tracking-tight mb-4'>
         Joining forces, we can address pressing global challenges,promote sustainability, <br className='hidden sm:block'/>and create a brighter future for all.
         </div> 
-        <form className='px-2 py-8 w-full sm:py-12 sm:px-8 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]'
-        action="https://formspree.io/f/xdoqoyee" 
-        method="POST"
+        <form
+          className="px-2 py-8 w-full sm:py-12 sm:px-8 rounded-xl shadow-[0_15px_80px_rgba(120,121,121,0.3)]"
+          action="https://formbold.com/s/3Vyl0"
+          method="POST"
+          id="contact-form"
         >
-          <div className='text-xl font-semibold mb-8'>Tell Us More About Yourself</div>
-          
-          <div className='text-sm font-semibold text-text mb-2'>Email Address</div>
-          
-          <input 
-            type="email" 
+          <div className="text-xl font-semibold mb-8">Tell Us More About Yourself</div>
+
+          <div className="text-sm font-semibold text-text mb-2">Email Address</div>
+          <input
+            name="email"
+            type="email"
             className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] mb-6 focus:outline-none"
             placeholder="Enter your email"
-            required
           />
-          
-          <div className='text-sm font-semibold text-text mb-2'>Message</div>
-          
+
+          <div className="text-sm font-semibold text-text mb-2">Message</div>
           <textarea
+            name="message"
             className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] focus:outline-none mb-8"
             rows="6"
             placeholder="Enter your message"
-            required
-          >
-          </textarea>
-          
-          <div className='flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 w-full'>
-            {/* Send Button */}
-            <button type="submit" className='transition-all duration-200 ease-in-out active:scale-95 cursor-pointer bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center'>
+          ></textarea>
+
+          <input
+            type="hidden"
+            name="cv" // This will hold the file URL from Uploadcare
+            id="uploadcare-file"
+          />
+
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 w-full">
+            <button
+              type="submit"
+              className="transition-all duration-200 ease-in-out active:scale-95 cursor-pointer bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center"
+            >
               Send
             </button>
 
-            <div className='text-text font-semibold'>-or-</div>
+            <div className="text-text font-semibold">-or-</div>
 
-            {/* Hidden File Input */}
-            <input 
-              id="file-input" 
-              type="file" 
-              name="cv"
-              className="hidden"
-              onChange={(e) => {
-                const fileName = e.target.files.length ? e.target.files[0].name : "No file chosen";
-                document.getElementById("file-name").innerText = "Submitted";
-                if (e.target.files.length > 0) {
-                  e.target.form.submit(); // Auto-submit when a file is selected
-                }
-              }} 
-              required
-            />
-
-            {/* Upload Button Triggers File Input */}
-            <button 
+            <button
               type="button"
-              onClick={() => document.getElementById('file-input').click()} 
-              className='bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center transition-all duration-200 ease-in-out active:scale-95 cursor-pointer'
+              onClick={() =>
+                uploadcare.openDialog(null, { multiple: false }).done((file) => {
+                  file.done((info) => {
+                    document.getElementById('uploadcare-file').value = info.cdnUrl;
+                    document.getElementById('file-name').innerText = "CV Uploaded ✅";
+                  });
+                })
+              }
+              className="bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center transition-all duration-200 ease-in-out active:scale-95 cursor-pointer"
             >
               Submit Your CV
             </button>
           </div>
 
-          {/* File Name Display */}
-          <p id="file-name" className="text-sm text-gray-500 text-center mt-4">Selecting A Document Automatically Submits The Form</p>
+          <p id="file-name" className="text-sm text-gray-500 text-center mt-4">
+            Upload your CV
+          </p>
         </form>
+        <div>
+</div>
+            
+
       </section>
 
       <div className='xl:px-16 px-6 mb-8 sm:mb-12 flex flex-col justify-end items-end'>
