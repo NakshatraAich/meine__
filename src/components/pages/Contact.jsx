@@ -8,9 +8,11 @@ const Contact = () => {
         <div className='font-bold text-5xl sm:text-6xl lg:text-7xl xl:text-8xl mt-[10rem] sm:mt-[13rem] text-head px-6 sm:px-12'>
           Get In <span className='text-brand'>Touch</span> With Us
         </div>
-        <div className='text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-altHead mt-4 lg:mt-6 px-6 sm:px-12'>
-          contact@meineelectric.com
-        </div>
+        <a href="mailto:contact@meineelectric.com">
+          <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-altHead mt-4 lg:mt-6 px-6 sm:px-12 cursor-pointer hover:underline">
+            contact@meineelectric.com
+          </div>
+        </a>
 
         <div className='rounded-3xl gap-4 flex flex-col sm:flex-row flex-wrap justify-between shadow-[0_15px_80px_rgba(120,121,121,0.3)] p-8 sm:p-16 mt-10 lg:mt-20 w-full'>
           <div className='flex flex-col gap-4 text-xl xl:text-2xl font-semibold'>
