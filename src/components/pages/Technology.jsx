@@ -1,5 +1,6 @@
 import React from 'react'
 import { cogen, elec, elec2, carbon, alair } from '../../assets'
+import { Car, Timer, BatteryFull, BellRing, Fuel} from 'lucide-react'
 
 const Technology = () => {
   return (
@@ -38,28 +39,33 @@ const Technology = () => {
         <div className='flex flex-col gap-3'>
           
           <div className='shadow-[0_15px_80px_rgba(120,121,121,0.1)] py-8 px-4 rounded-2xl w-full sm:max-w-[500px] md:max-w-[700px]'>
+            <Timer color="#b5d411" size={70} className='pb-2 -ml-2'/>
             <div className='text-2xl font-semibold text-brand'>100+ Hours of Backup</div>
-            <div className='text-xs sm:text-base  text-text  font-medium'>Provides a long-lasting and uninterrupted power supply for over 100 hours, ensuring reliable energy availability during extended outages or emergencies.</div>
+            <div className='text-sm sm:text-base sm:mt-0 mt-2 text-text  font-medium'>Provides a long-lasting and uninterrupted power supply for over 100 hours, ensuring reliable energy availability during extended outages or emergencies.</div>
           </div>
           
           <div className='shadow-[0_15px_80px_rgba(120,121,121,0.1)] py-8 px-4 rounded-2xl w-full sm:max-w-[500px] md:max-w-[700px] self-end'>
+            <BatteryFull color="#b5d411" size={70}/>
             <div className='text-2xl font-semibold text-brand'>Instant Refueling</div>
-            <div className='text-xs sm:text-base text-text font-medium'>The system allows for rapid refueling within seconds, minimizing downtime and ensuring continuous power availability without long wait times or interruptions.</div>
+            <div className='text-sm sm:text-base sm:mt-0 mt-2 text-text font-medium'>The system allows for rapid refueling within seconds, minimizing downtime and ensuring continuous power availability without long wait times or interruptions.</div>
           </div>
           
           <div className='shadow-[0_15px_80px_rgba(120,121,121,0.1)] py-8 px-4 rounded-2xl w-full sm:max-w-[500px] md:max-w-[700px] '>
+            <Car color="#b5d411" size={70}/>
             <div className='text-2xl font-semibold text-brand'>Zero Emissions</div>
-            <div className='text-xs sm:text-base text-text font-medium'>Operates without producing harmful emissions, making it an environmentally friendly energy solution that qualifies for carbon credits and supports sustainability goals.</div>
+            <div className='text-sm sm:text-base sm:mt-0 mt-2 text-text font-medium'>Operates without producing harmful emissions, making it an environmentally friendly energy solution that qualifies for carbon credits and supports sustainability goals.</div>
           </div>
           
           <div className='shadow-[0_15px_80px_rgba(120,121,121,0.1)] py-8 px-4 rounded-2xl w-full sm:max-w-[500px]  md:max-w-[700px] self-end'>
+            <BellRing color="#b5d411" size={60} className='pr-2'/>
             <div className='text-2xl font-semibold text-brand'>Silent & Seamless</div>
-            <div className='text-xs sm:text-base text-text font-medium'>Delivers quiet, vibration-free operation with a steady and smooth energy output, making it ideal for noise-sensitive environments and continuous usage.</div>
+            <div className='text-sm sm:text-base sm:mt-0 mt-2 text-text font-medium'>Delivers quiet, vibration-free operation with a steady and smooth energy output, making it ideal for noise-sensitive environments and continuous usage.</div>
           </div>
           
           <div className='shadow-[0_15px_80px_rgba(120,121,121,0.1)] py-8 px-4 rounded-2xl w-full sm:max-w-[500px] md:max-w-[700px] '>
+            <Fuel color="#b5d411" size={60} className='pr-2'/>
             <div className='text-2xl font-semibold text-brand'>No Fuel Logistics</div>
-            <div className='text-xs sm:text-base text-text font-medium'>Reduces dependency on frequent fuel deliveries by offering a low-maintenance, efficient power solution that simplifies logistics and long-term energy management.</div>
+            <div className='text-sm sm:text-base sm:mt-0 mt-2 text-text font-medium'>Reduces dependency on frequent fuel deliveries by offering a low-maintenance, efficient power solution that simplifies logistics and long-term energy management.</div>
           </div>
           
         </div>
