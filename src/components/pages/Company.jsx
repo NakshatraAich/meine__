@@ -91,7 +91,7 @@ const Company = () => {
         >
           <div className="text-xl font-semibold mb-8">Tell Us More About Yourself</div>
 
-          <div className="text-sm font-semibold text-text mb-2">Email Address</div>
+          <div className="text-sm font-semibold text-text">Email Address</div>
           <input
             name="email"
             type="email"
@@ -102,16 +102,18 @@ const Company = () => {
           <div className="text-sm font-semibold text-text mb-2">Message</div>
           <textarea
             name="message"
-            className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] focus:outline-none mb-8"
+            className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] focus:outline-none mb-6"
             rows="6"
             placeholder="Enter your message"
           ></textarea>
 
+          <div className="text-sm font-semibold text-text mb-2">Link to your resume</div>
           <input
-            type="hidden"
-            name="cv" // This will hold the file URL from Uploadcare
-            id="uploadcare-file"
-          />
+            name="cv link"
+            className="w-full p-4 rounded-lg bg-[#D9D9D9] opacity-[73%] focus:outline-none mb-8"
+            rows="1"
+            placeholder="Provide a working URL to your resume/portfolio"
+          ></input>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 w-full">
             <button
@@ -120,31 +122,7 @@ const Company = () => {
             >
               Send
             </button>
-
-            <div className="text-text font-semibold">-or-</div>
-
-            <button
-              type="button"
-              onClick={() =>
-                uploadcare.openDialog(null, { multiple: false }).done((file) => {
-                  file.done((info) => {
-                    document.getElementById('uploadcare-file').value = info.cdnUrl;
-                    document.getElementById('file-name').innerText = "CV Uploaded ✅";
-
-                    // Submit the form
-                    document.getElementById('contact-form').submit();
-                  });
-                })
-              }
-              className="bg-brand text-white font-semibold px-8 py-4 rounded-lg w-full sm:w-60 text-center transition-all duration-200 ease-in-out active:scale-95 cursor-pointer"
-            >
-              Submit Your CV
-            </button>
           </div>
-
-          <p id="file-name" className="text-sm text-gray-500 text-center mt-4">
-            Upload your CV
-          </p>
         </form>
         <div>
 </div>
